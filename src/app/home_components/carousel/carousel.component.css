@@ -1,0 +1,18 @@
+.imgText{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgText:hover{
+    color: aqua;
+}
+.imgBtn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bBtn:hover{
+    background-color: #FFC300;
+}
