@@ -1,4 +1,4 @@
-# HCL-2020
+# HCI-2020
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
@@ -30,4 +30,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 <h3>2020-09-04</h3>
 <li>Create html version of Cart, Payment, Track My Order components.</li>
 
-<h3>2020-09-05</h3>
+<h3>2020-09-06</h3>
+<li>add css to track my order component</li>

@@ -1,42 +1,58 @@
-<div>
-  <h1>Track my orders</h1>
-  <input type="text">
-  <button>Submit</button>
-</div>
-<br>
-<div>
-  <button>Warehouse Pick up</button>
-  <button>Out for delivery</button>
-  <button>Confirmed</button>
-</div>
-
-<br>
-<hr>
-
-<div>
-  <h2>Warehouse Pickup</h2>
-  <p>There are no warehouse pickup orders to display at this time.</p>
-</div>
-
-<hr>
-
-<div>
-  <h2>Out for Delivery</h2>
+<div class="container">
   <div>
-    <p>Order date: 2020/06/20</p>
-    <p>Order id: 152642892</p>
-    <p>Ship to: </p>
-    <p>No 79/A,<br>Malabe<br>Sri Lanka</p>
-
-    <p>Order status: Shipped</p>
+    <h1>Track my orders</h1>
+    <input type="text" style="padding: 6px 100px">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: orange;">Submit</button>
   </div>
+  <br>
+  <div class="row">
+    <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-md-4 col-lg-4 col-xl-4 neumorphism" style="box-shadow: 5px 5px 16px rgb(163, 177, 198, 0.6), -5px -5px 16px rgba(255, 255, 255, 0.5); background-color: #fc7703">
+      <p>Warehouse Pick up</p>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-md-4 col-lg-4 col-xl-4 neumorphism" style="box-shadow: 5px 5px 16px rgb(163, 177, 198, 0.6), -5px -5px 16px rgba(255, 255, 255, 0.5); background-color: #4ccf00">
+      <p>Out for delivery</p>
+    </div>
+    <div class="col-12 col-md-4 col-lg-4 col-xl-4 col-md-4 col-lg-4 col-xl-4 neumorphism" style="box-shadow: 5px 5px 16px rgb(163, 177, 198, 0.6), -5px -5px 16px rgba(255, 255, 255, 0.5); background-color: #005eff">
+      <p>Confirmed</p>
+    </div>
+
+
+  </div>
+
+  <br>
+  <hr>
+
+  <div>
+    <h2 class="text-danger">Warehouse Pickup</h2>
+    <p>There are no warehouse pickup orders to display at this time.</p>
+  </div>
+
+  <hr>
+
+  <div>
+    <h2 class="text-danger">Out for Delivery</h2>
+    <div class="d-flex justify-content-between">
+      <div>
+        <p>Order date: 2020/06/20</p>
+        <p>Order id: 152642892</p>
+      </div>
+      <div>
+        <p>Ship to: </p>
+        <p>No 79/A,<br>Malabe<br>Sri Lanka</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <p>Order status: <b class="text-danger">Shipped</b></p>
+  </div>
+
+
+  <hr>
+
+  <div>
+    <h2 class="text-danger">Confirmed</h2>
+    <p>There are no confirmed orders to display at this time.</p>
+  </div>
+
+
 </div>
-
-<hr>
-
-<div>
-  <h2>Confirmed</h2>
-  <p>There are no confirmed orders to display at this time.</p>
-</div>
-
-
