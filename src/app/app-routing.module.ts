@@ -5,13 +5,19 @@ import { AddBookComponent } from './Sellar_components/add-book/add-book.componen
 import { SellarHomeComponent } from './Sellar_components/sellar-home/sellar-home.component';
 import { SellarOrdersComponent } from './Sellar_components/sellar-orders/sellar-orders.component';
 import { SellarUpdateComponent } from './Sellar_components/sellar-update/sellar-update.component';
+import { CartComponent } from './cart_components/cart/cart.component';
+import { PaymentComponent } from './payment_components/payment/payment.component';
+import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
 
 const routes: Routes = [
-   { path: "",component: HomeBodyComponent, pathMatch: "full" }, 
+   { path: "",component: HomeBodyComponent, pathMatch: "full" },
   { path: 'seller', component: SellarHomeComponent },
   { path: 'order', component: SellarOrdersComponent },
   { path: 'update', component: SellarUpdateComponent },
-  { path: 'add_book', component: AddBookComponent }
+  { path: 'add_book', component: AddBookComponent },
+  { path: 'cart', component: CartComponent },
+  { path: 'payment_methods', component: PaymentComponent },
+  { path: 'track_my_order', component: TrackMyOrderComponent}
 ];
 
 @NgModule({

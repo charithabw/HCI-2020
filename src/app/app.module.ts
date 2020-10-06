@@ -17,6 +17,9 @@ import { SellarUpdateComponent } from './Sellar_components/sellar-update/sellar-
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
+import { CartComponent } from './cart_components/cart/cart.component';
+import { PaymentComponent } from './payment_components/payment/payment.component';
+import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
 
 
 @NgModule({
@@ -31,16 +34,19 @@ import { AddBookComponent } from './Sellar_components/add-book/add-book.componen
     SellarOrdersComponent,
     SellarUpdateComponent,
     AddBookComponent,
-    
+    CartComponent,
+    PaymentComponent,
+    TrackMyOrderComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-   
+
     MatDialogModule,
     MatFormFieldModule,
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
