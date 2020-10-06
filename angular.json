@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "bookShop"
+  "defaultProject": "bookShop",
+  "cli": {
+    "analytics": false
+  }
 }
