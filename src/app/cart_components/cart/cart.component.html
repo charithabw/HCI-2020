@@ -1,23 +1,95 @@
-<div class="container">
-  <div>
-    <h1>Shopping Cart</h1>
-    <input type="checkbox">
-    <label>Select all</label>
+<div class="container" style="margin-top: 10px; margin-bottom: 10px">
+  <div class="d-flex row">
+    <div class="col-12 col-md-8 col-lg-8 col-xl-8 col-md-8 col-lg-8 col-xl-8">
+      <div class="border border-dark" style="border-radius: 10px; margin-bottom: 20px; height: fit-content">
+        <div style="margin: 5px 0 0 20px">
+          <h1>Shopping Cart</h1>
+          <input type="checkbox">
+          <label style="margin-left: 10px">Select all</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-8 col-lg-4 col-xl-4 col-md-4 col-lg-4 col-xl-4">
+      <div class="border border-dark" style="border-radius: 10px;">
+        <div style="margin: 5px 20px 0 20px">
+          <h2 class="text-center">Order Summary</h2>
+          <p>Subtotal</p>
+          <p>Shipping</p>
+          <hr>
+          <h3>Total</h3>
+          <div style="justify-content: center; display: flex; margin-bottom: 10px">
+            <button class="btn" style="background-color: orange; font-weight: bold; padding: 5px 90px 5px 90px ">Buy
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div>
-    <h2>Order Summary</h2>
-    <p>Subtotal</p>
-    <p>Shipping</p>
-    <h3>Total</h3>
+  <div class="row">
+    <div class="col-12 col-md-8 col-lg-8 col-xl-8 col-md-8 col-lg-8 col-xl-8">
+      <div class="border border-dark" style="border-radius: 10px; margin: 20px 0 20px 0; height: fit-content">
+        <div style="margin: 10px 0 10px 0">
+          <div class="d-flex">
+            <input type="checkbox" style="margin: 100px 20px 0 20px">
+            <img src="../../../assets/cart_images/sciencegrade 10.jpg" height="200px" width="150"/>
+            <div class="flex-column" style="margin: 50px 10px 0 20px">
+              <p class="h4 text-justify">Grade 10 Science</p>
+              <p class="text-danger font-weight-bold h5">Rs. 750.00</p>
+            </div>
+          </div>
+          <div class="bookButton" style="display: flex; margin: 10px 10px">
+            <button class="btn" type="submit"
+                    style="background-color: orange; padding: 5px 50px 5px 50px; font-weight: bold">Buy
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div>
-    <h3>Payment Methods</h3>
-    <h3>Buyer Protection</h3>
-    <p>
-      Get full refund if the item is not as described or if is not delivered.
-    </p>
+  <div class="row">
+    <div class="col-12 col-md-8 col-lg-8 col-xl-8 col-md-8 col-lg-8 col-xl-8">
+      <div class="border border-dark" style="border-radius: 10px; margin-bottom: 20px; height: fit-content">
+        <div style="margin: 10px 0 10px 0">
+          <div class="d-flex">
+            <input type="checkbox" style="margin: 100px 20px 0 20px">
+            <img src="../../../assets/cart_images/OxfordEnglishDictionary.jpg" height="200px" width="150"/>
+            <div class="flex-column" style="margin: 50px 10px 0 20px">
+              <p class="h4 text-justify">Oxford English Dictionary</p>
+              <p class="text-danger text-justify font-weight-bold h5">Rs. 2750.00</p>
+            </div>
+          </div>
+          <div class="bookButton" style="display: flex; margin: 10px 10px">
+            <button class="btn" type="submit"
+                    style="background-color: orange; padding: 5px 50px 5px 50px; font-weight: bold">Buy
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="border border-dark d-flex justify-content-between" style="border-radius: 10px; margin-top: 10px">
+    <div class="text-center vl" style="width: 68%">
+      <h3 class="cart_title">Payment Methods</h3>
+      <div>
+        <i class="fa fa-cc-mastercard fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-cc-visa fa-3x px-2" aria-hidden="true"></i>
+        <i class="fa fa-cc-amex fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-cc-discover fa-3x px-2" aria-hidden="true"></i>
+        <i class="fa fa-cc-stripe fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-cc-paypal fa-3x px-2" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="text-center" style="width: 30%; margin: 5px 20px">
+      <h3 class="cart_title">Buyer Protection</h3>
+      <p class="protection_dec">
+        Get full refund if the item is not as described or if is not delivered.
+      </p>
+    </div>
   </div>
 </div>
 
