@@ -20,6 +20,7 @@ import { AddBookComponent } from './Sellar_components/add-book/add-book.componen
 import { CartComponent } from './cart_components/cart/cart.component';
 import { PaymentComponent } from './payment_components/payment/payment.component';
 import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
+import { PlaceOrderComponent } from './Place_order_components/place-order/place-order.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { TrackMyOrderComponent } from './tracking_components/track-my-order/trac
     CartComponent,
     PaymentComponent,
     TrackMyOrderComponent,
+    PlaceOrderComponent,
 
   ],
   imports: [
