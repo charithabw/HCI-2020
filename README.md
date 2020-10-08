@@ -22,16 +22,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Working on project
+## Tools
+<li>VSCode</li>
+<li>IntelliJ IDEA</li>
+<li>Bootstrap</li>
+<li>Chrome</li>
 
-<h3>2020-09-03</h3>
-<li>Create Cart, Payment, Track My Order components.</li>
+## Contributors
 
-<h3>2020-09-04</h3>
-<li>Create html version of Cart, Payment, Track My Order components.</li>
-
-<h3>2020-09-06</h3>
-<li>add css to track my order component</li>
-
-<h3>2020-09-07</h3>
-<li>add css and bootstrap to Shopping Cart</li>
+<li>Charitha</li>
+<li>Isuru</li>
+<li>Dinithi</li>
+<li>Dilki</li>
+<li>Shalitha</li>
