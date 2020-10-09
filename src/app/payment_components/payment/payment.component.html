@@ -1,0 +1,64 @@
+<div class="container">
+  <div>
+    <p class="h1">Payment Methods</p>
+  </div>
+
+  <div class="border border-danger" style="border-radius: 10px">
+    <h2 class="text-center" style="margin: 10px">Card</h2>
+    <div class="d-flex justify-content-center" style="margin: 0 0 10px">
+      <i class="fa fa-cc-mastercard fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-cc-visa fa-3x px-2" aria-hidden="true"></i>
+      <i class="fa fa-cc-amex fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-cc-discover fa-3x px-2" aria-hidden="true"></i>
+      <i class="fa fa-cc-stripe fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-cc-paypal fa-3x px-2" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <div class="row" style="margin: 20px">
+    <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-md-6 col-lg-6 col-xl-6 border-0" style="margin: 0 0 20px">
+      <div class="border-0 addCard"
+           style="border-radius: 15px; background-color: #ededed; padding: 30px 20px 70px 20px; margin: 0 40px">
+        <p>Card Number</p>
+        <input type="text" style="background-color: #ededed; width: 97%">
+        <div class="d-flex" style="margin-top: 20px">
+          <div class="flex-column">
+            <p>Name on Card</p>
+            <input type="text" style="background-color: #ededed; width: 95%">
+          </div>
+          <div class="flex-column" style="margin-left: 50px">
+            <p>Exp.</p>
+            <input type="text" style="background-color: #ededed; width: 100%">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-6 col-xl-6 col-md-6 col-lg-6 col-xl-6 border-0">
+      <div class="border-0 addCard"
+           style="border-radius: 15px; background-color: #ededed; padding: 30px 0 104px 0; margin: 0 40px">
+        <div class="border border-dark" style="height: 50px; width: auto; background-color: #111111">
+        </div>
+        <p style="display: flex; justify-content: flex-end; margin: 30px 64px 0 0">CVV</p>
+        <input type="text" style="background-color: #ededed; float: right; margin-right: 20px; width: 70px">
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="d-flex">
+      <input type="checkbox" style="margin: 5px 10px 0 0">
+      <p class="h5">Set this card as default</p>
+    </div>
+    <button class="btn text-danger" type="submit"
+            style="background-color: orange; padding: 5px 50px 5px 50px; margin-right: 20px;  font-weight: bold">Confirm</button>
+    <button class="btn" type="submit"
+            style="background-color: orange; padding: 5px 50px 5px 50px; font-weight: bold">Cancel</button>
+    <div class="d-flex" style="margin-top: 20px">
+      <i class="fa fa-plus-circle" style="margin: 5px 10px 0 0"></i>
+      <p class="h5">add another card</p>
+    </div>
+
+  </div>
+
+</div>
