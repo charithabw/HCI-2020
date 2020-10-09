@@ -7,6 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignupComponent implements OnInit {
 
+  topics = ['Badulla','Malabe','Colombo'];
+
+  topicHasError = true;
+
+ 
+
+  validateTopic (value){
+
+    if(value === 'default'){
+      this.topicHasError = true;
+
+    }
+    else{
+      this.topicHasError = false;
+    }
+  }
+
   constructor() { }
 
   ngOnInit(): void {

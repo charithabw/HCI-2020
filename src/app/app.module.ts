@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,7 @@ import { PersonalSettingComponent } from './Buyer_component/personal-setting/per
 import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
 import { SignupComponent } from './signup_component/signup/signup.component';
+import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
 
 
 
@@ -52,6 +54,7 @@ import { SignupComponent } from './signup_component/signup/signup.component';
     PrivacySettingComponent,
     OrderDetailsComponent,
     SignupComponent,
+    SignupDetailsComponent,
 
   ],
   imports: [
@@ -63,6 +66,7 @@ import { SignupComponent } from './signup_component/signup/signup.component';
     MatFormFieldModule,
     MatProgressBarModule, 
     MatRippleModule,   
+    FormsModule
    
   ],
   providers: [],
