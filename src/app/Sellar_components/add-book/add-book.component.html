@@ -1,6 +1,28 @@
 <div class="container">
+  <div class="container_2">  
+   <div class = "box">    
+       <div class="btn_upload">
+         <input type = "file" id = "upload_file" name="" (change) = "selectFile($event)">
+         <i class="fa fa-cloud-upload icon">
+           <span class="title">Upload Image</span>
+          </i>
+        </div>
+        <div class="success"></div>
+      </div>
+      <div class="progress" *ngIf = "isProgrress">
+        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+      </div>
+    </div>
+
+    
+    <div *ngIf = "isShow" class="imageBox">
+      <div class="error_msgs"></div>
+      <span class={{file_remove}} style="float: right;" (click) = "closed()">{{x}}</span>
+      <img src = {{url}} width="100%" height="100%" alt="picture">
+    </div>
+  </div> 
   
-    <div>
+   <div style="margin-bottom: 15vh; margin-left: 25%; border: solid; margin-right: 30%; padding: 10px">
         <div class="form-group col-md-4">
             <label for="inputCity"><strong>Book Name</strong></label>
             <input type="text" class="form-control" id="inputCity">
@@ -26,7 +48,15 @@
             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
             <label class="form-check-label" for="exampleRadios1">
               Tamil
-            </label>
-          
-    </div>
+            </label>          
+        </div>
+        <!-- <div class="form-group col-md-4">
+        <label><strong>Eddition</strong></label><br>
+          <mat-form-field class="example-ripple-form-field" >
+            <input matInput [(ngModel)]="radius" type="number" placeholder="Editon" style="padding-bottom: 5px; margin-bottom: 5px;">
+          </mat-form-field>
+        </div>        -->
+</div>
+<div style="text-align: center; padding-bottom: 5vh;">
+  <button type="button" class="btn btn-warning" style="border-radius: 55%; padding: 3vh;"><i class="fa fa-plus" aria-hidden="true">Add</i></button>
 </div>
