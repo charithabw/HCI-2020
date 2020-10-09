@@ -12,6 +12,7 @@ import { UserProfileComponent } from './Buyer_component/user-profile/user-profil
 import { PersonalSettingComponent } from './Buyer_component/personal-setting/personal-setting.component';
 import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
+import { SignupComponent } from './signup_component/signup/signup.component';
 
 const routes: Routes = [
    { path: "",component: HomeBodyComponent, pathMatch: "full" },
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'add_book', component: AddBookComponent },
   { path: 'cart', component: CartComponent },
   { path: 'payment_methods', component: PaymentComponent },
-  { path: 'track_my_order', component: TrackMyOrderComponent}
+  { path: 'track_my_order', component: TrackMyOrderComponent},
+  { path: 'signup', component: SignupComponent }
 ];
 
 @NgModule({
