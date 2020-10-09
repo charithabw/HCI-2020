@@ -16,6 +16,8 @@ import { SellarUpdateComponent } from './Sellar_components/sellar-update/sellar-
 
 
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatRippleModule } from '@angular/material/core';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
 import { CartComponent } from './cart_components/cart/cart.component';
 import { PaymentComponent } from './payment_components/payment/payment.component';
@@ -46,7 +48,9 @@ import { TrackMyOrderComponent } from './tracking_components/track-my-order/trac
 
     MatDialogModule,
     MatFormFieldModule,
-
+    MatProgressBarModule, 
+    MatRippleModule,   
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
