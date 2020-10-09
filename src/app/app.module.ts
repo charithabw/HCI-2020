@@ -21,6 +21,11 @@ import { CartComponent } from './cart_components/cart/cart.component';
 import { PaymentComponent } from './payment_components/payment/payment.component';
 import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
 import { PlaceOrderComponent } from './Place_order_components/place-order/place-order.component';
+import { UserProfileComponent } from './Buyer_component/user-profile/user-profile.component';
+import { PersonalSettingComponent } from './Buyer_component/personal-setting/personal-setting.component';
+import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
+import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
+
 
 
 @NgModule({
@@ -39,6 +44,10 @@ import { PlaceOrderComponent } from './Place_order_components/place-order/place-
     PaymentComponent,
     TrackMyOrderComponent,
     PlaceOrderComponent,
+    UserProfileComponent,
+    PersonalSettingComponent,
+    PrivacySettingComponent,
+    OrderDetailsComponent,
 
   ],
   imports: [
