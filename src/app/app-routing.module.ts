@@ -12,10 +12,12 @@ import { UserProfileComponent } from './Buyer_component/user-profile/user-profil
 import { PersonalSettingComponent } from './Buyer_component/personal-setting/personal-setting.component';
 import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
+import { OrderViewComponent } from './Buyer_component/order-details/order-view/order-view.component';
 
 const routes: Routes = [
    { path: "",component: HomeBodyComponent, pathMatch: "full" },
    { path: 'personal', component: PersonalSettingComponent }, 
+   { path: 'B_order_view', component: OrderViewComponent },
    { path: 'privacy', component: PrivacySettingComponent },
    { path: 'b_order', component: OrderDetailsComponent },  
   { path: 'seller', component: SellarHomeComponent },
