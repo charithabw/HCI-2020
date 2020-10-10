@@ -1,0 +1,57 @@
+.form-box{
+
+    width:400px ;
+    height: 560px;
+    position: relative;
+    margin: 6% auto;
+    background-image: linear-gradient(to right, rgba(255,0,0,0));
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ 
+h3{
+
+    text-align: center;
+    font-family: Arial;
+ }
+
+ h4{
+
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+ }
+
+ p{
+
+    text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+ }
+
+ button{
+
+    font-family: Arial;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-size: 15px;
+    width: 100%;
+   
+    
+ }
+
+ button:hover {
+     
+    opacity: 3
+
+}
+
+.hr {
+    border: 10px rgb(253, 244, 244);
+    margin-bottom: 25px;
+  }
+
+  
