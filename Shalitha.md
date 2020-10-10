@@ -39,3 +39,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 <h3>2020-09-08</h3>
 <li>Create place order component</li>
 <li>add css and bootstrap to Payment Method</li>
+
+<h3>2020-09-09</h3>
+<li>add css and bootstrap to Place order</li>
