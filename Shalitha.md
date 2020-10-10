@@ -42,3 +42,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 <h3>2020-09-09</h3>
 <li>add css and bootstrap to Place order</li>
+
+<h3>2020-09-10</h3>
+<li>Edit track my order</li>
