@@ -61,13 +61,11 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
     MatDialogModule,
     MatFormFieldModule,
-    MatProgressBarModule, 
-    MatRippleModule,   
-    FormsModule
-   
+    MatProgressBarModule,
+    MatRippleModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
