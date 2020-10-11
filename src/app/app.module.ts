@@ -1,6 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
+
+import { ReactiveFormsModule } from '@angular/forms';
+
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './home_components/header/header.component';
@@ -13,6 +18,20 @@ import { SignINComponent } from './sign_components/sign-in/sign-in.component';
 import { SellarHomeComponent } from './Sellar_components/sellar-home/sellar-home.component';
 import { SellarOrdersComponent } from './Sellar_components/sellar-orders/sellar-orders.component';
 import { SellarUpdateComponent } from './Sellar_components/sellar-update/sellar-update.component';
+
+
+
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatRippleModule } from '@angular/material/core';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatInputModule } from '@angular/material/input';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
+
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
@@ -26,6 +45,9 @@ import { PrivacySettingComponent } from './Buyer_component/privacy-setting/priva
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
+import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
+import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
+import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
 
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTableModule } from '@angular/material/table';
@@ -62,6 +84,9 @@ import { MatTabsModule } from '@angular/material/tabs';
     OrderDetailsComponent,
     SignupComponent,
     SignupDetailsComponent,
+    SellarPaymentsComponent,
+    SellarMyBooksComponent,
+    SellarSoldBooksComponent,
 
 
   ],
@@ -71,6 +96,20 @@ import { MatTabsModule } from '@angular/material/tabs';
     BrowserAnimationsModule,
     MatDialogModule,
     MatFormFieldModule,
+
+    MatProgressBarModule, 
+    MatRippleModule,   
+    FormsModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    MatSortModule,
+    MatInputModule,
+    MatPaginatorModule,
+    MatCardModule,
+    MatButtonModule,
+    
+   
+
     MatProgressBarModule,
     MatRippleModule,
     FormsModule,
@@ -83,6 +122,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatCardModule,
     MatTabsModule,
     FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -14,6 +14,9 @@ import { PrivacySettingComponent } from './Buyer_component/privacy-setting/priva
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { PlaceOrderComponent} from './Place_order_components/place-order/place-order.component';
+import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
+import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
+import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
 
 
 
@@ -32,7 +35,15 @@ const routes: Routes = [
   { path: 'payment_methods', component: PaymentComponent },
   { path: 'track_my_order', component: TrackMyOrderComponent},
   { path: 'signup', component: SignupComponent },
+
+  { path: 'track_my_order', component: TrackMyOrderComponent },
+  { path: 'place_order', component: PlaceOrderComponent },
+  { path: 'payment', component: SellarPaymentsComponent },
+  { path: 'my_books', component: SellarMyBooksComponent },
+  { path: 'sold_books', component: SellarSoldBooksComponent },
+
   { path: 'place_order', component: PlaceOrderComponent }
+
 
 ];
 
