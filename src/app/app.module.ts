@@ -29,6 +29,7 @@ import { AddBookComponent } from './Sellar_components/add-book/add-book.componen
 import { FormsModule } from '@angular/forms';
 //import { SigninComponentComponent } from './signin-component/signin-component.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
+
 import { MatRippleModule } from '@angular/material/core';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
@@ -79,9 +80,13 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
     MatDialogModule,
     MatFormFieldModule,
+
+    MatProgressBarModule,
+    MatRippleModule,
+    FormsModule,
+
 
 
     MatTableModule,
@@ -99,6 +104,7 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     MatRippleModule,   
     FormsModule
    
+
 
   ],
   providers: [],

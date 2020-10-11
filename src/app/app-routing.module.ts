@@ -15,15 +15,19 @@ import { OrderDetailsComponent } from './Buyer_component/order-details/order-det
 
 import { SignupComponent } from './signup_component/signup/signup.component';
 
+
+import { SignupComponent } from './signup_component/signup/signup.component';
+
 import { PlaceOrderComponent} from './Place_order_components/place-order/place-order.component';
+
 
 
 
 const routes: Routes = [
    { path: "",component: HomeBodyComponent, pathMatch: "full" },
-   { path: 'personal', component: PersonalSettingComponent },
+   { path: 'personal', component: PersonalSettingComponent }, 
    { path: 'privacy', component: PrivacySettingComponent },
-   { path: 'b_order', component: OrderDetailsComponent },
+   { path: 'b_order', component: OrderDetailsComponent },  
   { path: 'seller', component: SellarHomeComponent },
   { path: 'buyer', component: UserProfileComponent },
   { path: 'order', component: SellarOrdersComponent },
@@ -35,8 +39,13 @@ const routes: Routes = [
   { path: 'track_my_order', component: TrackMyOrderComponent},
   { path: 'signup', component: SignupComponent }
 
+
+  { path: 'track_my_order', component: TrackMyOrderComponent},
+  { path: 'signup', component: SignupComponent }
+
   { path: 'track_my_order', component: TrackMyOrderComponent },
   { path: 'place_order', component: PlaceOrderComponent }
+
 
 ];
 
