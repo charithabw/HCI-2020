@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './home_components/header/header.component';
@@ -14,25 +13,9 @@ import { SignINComponent } from './sign_components/sign-in/sign-in.component';
 import { SellarHomeComponent } from './Sellar_components/sellar-home/sellar-home.component';
 import { SellarOrdersComponent } from './Sellar_components/sellar-orders/sellar-orders.component';
 import { SellarUpdateComponent } from './Sellar_components/sellar-update/sellar-update.component';
-
-
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatTableModule } from '@angular/material/table';
-import { MatInputModule } from '@angular/material/input';
-import { MatButtonModule } from '@angular/material/button';
-import { MatRippleModule } from '@angular/material/core';
-import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatIconModule } from '@angular/material/icon';
-import { MatCardModule } from '@angular/material/card';
-import { MatTabsModule } from '@angular/material/tabs';
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
-import { FormsModule } from '@angular/forms';
-//import { SigninComponentComponent } from './signin-component/signin-component.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
-
-import { MatRippleModule } from '@angular/material/core';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
-import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
 import { CartComponent } from './cart_components/cart/cart.component';
 import { PaymentComponent } from './payment_components/payment/payment.component';
 import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
@@ -44,6 +27,15 @@ import { OrderDetailsComponent } from './Buyer_component/order-details/order-det
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
 
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatRippleModule } from '@angular/material/core';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 
@@ -59,10 +51,7 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     SellarOrdersComponent,
     SellarUpdateComponent,
     AddBookComponent,
-
-    //SigninComponentComponent,
     LoginUserComponent,
-
     CartComponent,
     PaymentComponent,
     TrackMyOrderComponent,
@@ -82,13 +71,9 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     BrowserAnimationsModule,
     MatDialogModule,
     MatFormFieldModule,
-
     MatProgressBarModule,
     MatRippleModule,
     FormsModule,
-
-
-
     MatTableModule,
     MatButtonModule,
     MatInputModule,
@@ -98,14 +83,6 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     MatCardModule,
     MatTabsModule,
     FormsModule,
-
-
-    MatProgressBarModule, 
-    MatRippleModule,   
-    FormsModule
-   
-
-
   ],
   providers: [],
   bootstrap: [AppComponent]
