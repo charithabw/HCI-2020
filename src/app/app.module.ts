@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,13 @@ import { SellarUpdateComponent } from './Sellar_components/sellar-update/sellar-
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatRippleModule } from '@angular/material/core';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatTableModule } from '@angular/material/table';
+import { MatSortModule } from '@angular/material/sort';
+import { MatInputModule } from '@angular/material/input';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
 import { CartComponent } from './cart_components/cart/cart.component';
 import { PaymentComponent } from './payment_components/payment/payment.component';
@@ -30,6 +38,9 @@ import { PrivacySettingComponent } from './Buyer_component/privacy-setting/priva
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
+import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
+import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
+import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
 
 
 
@@ -55,6 +66,9 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     OrderDetailsComponent,
     SignupComponent,
     SignupDetailsComponent,
+    SellarPaymentsComponent,
+    SellarMyBooksComponent,
+    SellarSoldBooksComponent,
 
   ],
   imports: [
@@ -66,7 +80,15 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     MatFormFieldModule,
     MatProgressBarModule, 
     MatRippleModule,   
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule,
+    MatTableModule,
+    MatSortModule,
+    MatInputModule,
+    MatPaginatorModule,
+    MatCardModule,
+    MatButtonModule,
+    
    
   ],
   providers: [],
