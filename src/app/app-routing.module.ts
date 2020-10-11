@@ -12,22 +12,17 @@ import { UserProfileComponent } from './Buyer_component/user-profile/user-profil
 import { PersonalSettingComponent } from './Buyer_component/personal-setting/personal-setting.component';
 import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
-
 import { SignupComponent } from './signup_component/signup/signup.component';
-
-
-import { SignupComponent } from './signup_component/signup/signup.component';
-
 import { PlaceOrderComponent} from './Place_order_components/place-order/place-order.component';
 
 
 
 
 const routes: Routes = [
-   { path: "",component: HomeBodyComponent, pathMatch: "full" },
-   { path: 'personal', component: PersonalSettingComponent }, 
-   { path: 'privacy', component: PrivacySettingComponent },
-   { path: 'b_order', component: OrderDetailsComponent },  
+  { path: "",component: HomeBodyComponent, pathMatch: "full" },
+  { path: 'personal', component: PersonalSettingComponent },
+  { path: 'privacy', component: PrivacySettingComponent },
+  { path: 'b_order', component: OrderDetailsComponent },
   { path: 'seller', component: SellarHomeComponent },
   { path: 'buyer', component: UserProfileComponent },
   { path: 'order', component: SellarOrdersComponent },
@@ -35,17 +30,9 @@ const routes: Routes = [
   { path: 'add_book', component: AddBookComponent },
   { path: 'cart', component: CartComponent },
   { path: 'payment_methods', component: PaymentComponent },
-
   { path: 'track_my_order', component: TrackMyOrderComponent},
-  { path: 'signup', component: SignupComponent }
-
-
-  { path: 'track_my_order', component: TrackMyOrderComponent},
-  { path: 'signup', component: SignupComponent }
-
-  { path: 'track_my_order', component: TrackMyOrderComponent },
+  { path: 'signup', component: SignupComponent },
   { path: 'place_order', component: PlaceOrderComponent }
-
 
 ];
 
