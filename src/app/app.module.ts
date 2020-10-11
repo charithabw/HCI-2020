@@ -34,7 +34,7 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
-import { MatProgressBarModule } from '@angular/material/progress-bar';
+
 import { CartComponent } from './cart_components/cart/cart.component';
 import { PaymentComponent } from './payment_components/payment/payment.component';
 import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
@@ -49,14 +49,10 @@ import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sel
 import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
 import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
 
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatTableModule } from '@angular/material/table';
-import { MatInputModule } from '@angular/material/input';
-import { MatButtonModule } from '@angular/material/button';
-import { MatRippleModule } from '@angular/material/core';
+
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
-import { MatCardModule } from '@angular/material/card';
+
 import { MatTabsModule } from '@angular/material/tabs';
 
 
