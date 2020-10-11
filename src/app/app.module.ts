@@ -1,7 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
+
 import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +20,7 @@ import { SellarOrdersComponent } from './Sellar_components/sellar-orders/sellar-
 import { SellarUpdateComponent } from './Sellar_components/sellar-update/sellar-update.component';
 
 
+
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatRippleModule } from '@angular/material/core';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
@@ -27,7 +31,10 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 
+
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
+import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { CartComponent } from './cart_components/cart/cart.component';
 import { PaymentComponent } from './payment_components/payment/payment.component';
 import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
@@ -41,6 +48,16 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
 import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
 import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
 import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
+
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { MatRippleModule } from '@angular/material/core';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import { MatTabsModule } from '@angular/material/tabs';
 
 
 
@@ -56,6 +73,7 @@ import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/
     SellarOrdersComponent,
     SellarUpdateComponent,
     AddBookComponent,
+    LoginUserComponent,
     CartComponent,
     PaymentComponent,
     TrackMyOrderComponent,
@@ -70,14 +88,15 @@ import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
 
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
     MatDialogModule,
     MatFormFieldModule,
+
     MatProgressBarModule, 
     MatRippleModule,   
     FormsModule,
@@ -90,6 +109,20 @@ import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/
     MatButtonModule,
     
    
+
+    MatProgressBarModule,
+    MatRippleModule,
+    FormsModule,
+    MatTableModule,
+    MatButtonModule,
+    MatInputModule,
+    MatRippleModule,
+    MatCheckboxModule,
+    MatIconModule,
+    MatCardModule,
+    MatTabsModule,
+    FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
