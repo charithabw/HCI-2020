@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,21 @@ import { AddBookComponent } from './Sellar_components/add-book/add-book.componen
 import { FormsModule } from '@angular/forms';
 //import { SigninComponentComponent } from './signin-component/signin-component.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
+import { MatRippleModule } from '@angular/material/core';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
+import { CartComponent } from './cart_components/cart/cart.component';
+import { PaymentComponent } from './payment_components/payment/payment.component';
+import { TrackMyOrderComponent } from './tracking_components/track-my-order/track-my-order.component';
+import { PlaceOrderComponent } from './Place_order_components/place-order/place-order.component';
+import { UserProfileComponent } from './Buyer_component/user-profile/user-profile.component';
+import { PersonalSettingComponent } from './Buyer_component/personal-setting/personal-setting.component';
+import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
+import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
+import { SignupComponent } from './signup_component/signup/signup.component';
+import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
+
+
 
 
 @NgModule({
@@ -42,8 +58,21 @@ import { LoginUserComponent } from './Signin_component/login-user/login-user.com
     SellarOrdersComponent,
     SellarUpdateComponent,
     AddBookComponent,
+
     //SigninComponentComponent,
     LoginUserComponent,
+
+    CartComponent,
+    PaymentComponent,
+    TrackMyOrderComponent,
+    PlaceOrderComponent,
+    UserProfileComponent,
+    PersonalSettingComponent,
+    PrivacySettingComponent,
+    OrderDetailsComponent,
+    SignupComponent,
+    SignupDetailsComponent,
+
 
   ],
   imports: [
@@ -54,6 +83,7 @@ import { LoginUserComponent } from './Signin_component/login-user/login-user.com
     MatDialogModule,
     MatFormFieldModule,
 
+
     MatTableModule,
     MatButtonModule,
     MatInputModule,
@@ -63,6 +93,12 @@ import { LoginUserComponent } from './Signin_component/login-user/login-user.com
     MatCardModule,
     MatTabsModule,
     FormsModule,
+
+
+    MatProgressBarModule, 
+    MatRippleModule,   
+    FormsModule
+   
 
   ],
   providers: [],
