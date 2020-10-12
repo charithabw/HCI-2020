@@ -32,3 +32,20 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 <h3>2020-09-06</h3>
 <li>add css to track my order component</li>
+
+<h3>2020-09-07</h3>
+<li>add css and bootstrap to Shopping Cart</li>
+
+<h3>2020-09-08</h3>
+<li>Create place order component</li>
+<li>add css and bootstrap to Payment Method</li>
+
+<h3>2020-09-09</h3>
+<li>add css and bootstrap to Place order</li>
+
+<h3>2020-09-10</h3>
+<li>Edit track my order</li>
+
+<h3>2020-09-11</h3>
+<li>Add new photos</li>
+<Li>Edit sign up methods</Li>
