@@ -1,9 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule} from '@angular/forms';
-
-import { ReactiveFormsModule } from '@angular/forms';
-
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -43,6 +39,9 @@ import { UserProfileComponent } from './Buyer_component/user-profile/user-profil
 import { PersonalSettingComponent } from './Buyer_component/personal-setting/personal-setting.component';
 import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
+
+import { OrderViewComponent } from './Buyer_component/order-details/order-view/order-view.component';
+
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
 import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
@@ -54,6 +53,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 
 import { MatTabsModule } from '@angular/material/tabs';
+
 
 
 
@@ -78,11 +78,13 @@ import { MatTabsModule } from '@angular/material/tabs';
     PersonalSettingComponent,
     PrivacySettingComponent,
     OrderDetailsComponent,
+    OrderViewComponent,
     SignupComponent,
     SignupDetailsComponent,
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
+
 
 
   ],
@@ -92,7 +94,6 @@ import { MatTabsModule } from '@angular/material/tabs';
     BrowserAnimationsModule,
     MatDialogModule,
     MatFormFieldModule,
-
     MatProgressBarModule, 
     MatRippleModule,   
     FormsModule,
