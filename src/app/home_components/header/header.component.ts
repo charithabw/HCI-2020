@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { SignINComponent } from 'src/app/sign_components/sign-in/sign-in.component';
 
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -9,6 +10,7 @@ import { SignINComponent } from 'src/app/sign_components/sign-in/sign-in.compone
 })
 export class HeaderComponent implements OnInit {
 
+  
   constructor(public dialog: MatDialog) {}
 
   openDialog() {
@@ -19,7 +21,9 @@ export class HeaderComponent implements OnInit {
     });
   }
   
+  
   ngOnInit(): void {
+    
   }
 
 }
