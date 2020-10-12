@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {MatCardModule} from '@angular/material/card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -53,7 +54,8 @@ import { OrderViewComponent } from './Buyer_component/order-details/order-view/o
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-
+    MatCardModule,
+    
     MatDialogModule,
     MatFormFieldModule,
 
