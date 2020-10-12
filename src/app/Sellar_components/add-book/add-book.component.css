@@ -15,7 +15,7 @@
     transition: .2s;
     position: relative;
     overflow: hidden;
-    margin-left: 37%;
+    margin-left: 27%;
 }
 .box:hover{
     transform: scale(1.2);
@@ -149,3 +149,6 @@
     height: 50px;
     opacity: 1;
 }
+.error{
+    color: red;
+  }

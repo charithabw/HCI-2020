@@ -19,21 +19,27 @@ export class SellarMyBooksComponent implements OnInit {
   ngOnInit(): void {
   }
   remove1(){
+    alert("Do you want to delete this book!!!");
     this.isShow1 = false;
   }
   remove2(){
+    alert("Do you want to delete this book!!!");
     this.isShow2 = false;
   }
   remove3(){
+    alert("Do you want to delete this book!!!");
     this.isShow3 = false;
   }
   remove4(){
+    alert("Do you want to delete this book!!!");
     this.isShow4 = false;
   }
   remove5(){
+    alert("Do you want to delete this book!!!");
     this.isShow5 = false;
   }
   remove6(){
+    alert("Do you want to delete this book!!!");
     this.isShow6 = false;
   }
 
