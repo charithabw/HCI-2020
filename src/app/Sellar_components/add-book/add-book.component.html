@@ -1,62 +1,71 @@
+<div style="background-color:lavender; width: 20%; text-align: center; float: left;">
+  <h2>Add Book</h2>
+</div>
 <div class="container">
-  <div class="container_2">  
-   <div class = "box">    
-       <div class="btn_upload">
-         <input type = "file" id = "upload_file" name="" (change) = "selectFile($event)">
-         <i class="fa fa-cloud-upload icon">
-           <span class="title">Upload Image</span>
-          </i>
-        </div>
-        <div class="success"></div>
+  <div class="container_2">
+    <div class="box">
+      <div class="btn_upload">
+        <input type="file" id="upload_file" name="" (change)="selectFile($event)">
+        <i class="fa fa-cloud-upload icon">
+          <span class="title">Upload Image</span>
+        </i>
       </div>
-      <div class="progress" *ngIf = "isProgrress">
-        <mat-progress-bar mode="indeterminate"></mat-progress-bar>
-      </div>
+      <div class="success"></div>
     </div>
+    <div class="progress" *ngIf="isProgrress">
+      <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    </div>
+  </div>
 
-    
-    <div *ngIf = "isShow" class="imageBox">
-      <div class="error_msgs"></div>
-      <span class={{file_remove}} style="float: right;" (click) = "closed()">{{x}}</span>
-      <img src = {{url}} width="100%" height="100%" alt="picture">
+
+  <div *ngIf="isShow" class="imageBox">
+    <div class="error_msgs"></div>
+    <span class={{file_remove}} style="float: right;" (click)="closed()">{{x}}</span>
+    <img src={{url}} width="100%" height="100%" alt="picture">
+  </div>
+</div>
+<form [formGroup]="AddForm">
+  <div style="margin-bottom: 15vh; margin-left: 25%; border: solid; margin-right: 30%; padding: 10px">
+    <div class="form-group col-md-4">
+      <label for="inputCity"><strong>Book Name*</strong></label>
+      <input type="text" class="form-control" id="inputCity" formControlName="bname">
+      <span class="error" *ngIf="bname.invalid && bname.touched">book name is requerd!</span>
     </div>
-  </div> 
-  
-   <div style="margin-bottom: 15vh; margin-left: 25%; border: solid; margin-right: 30%; padding: 10px">
-        <div class="form-group col-md-4">
-            <label for="inputCity"><strong>Book Name</strong></label>
-            <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="form-group col-md-4">
-            <label for="inputCity"><strong>Author Name</strong></label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-        <div class="form-group col-md-4">
-            <label for="inputCity"><strong>Year</strong></label>
-            <input type="text" class="form-control" id="inputCity">
-        </div>
-        <label style="margin-left: 10vh;"><strong>Laungage</strong></label>
-        <div class="form-check" style="margin-left: 10vh;">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              Sinhala
-            </label> <br>        
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              English
-            </label><br>           
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              Tamil
-            </label>          
-        </div>
-        <!-- <div class="form-group col-md-4">
-        <label><strong>Eddition</strong></label><br>
-          <mat-form-field class="example-ripple-form-field" >
-            <input matInput [(ngModel)]="radius" type="number" placeholder="Editon" style="padding-bottom: 5px; margin-bottom: 5px;">
-          </mat-form-field>
-        </div>        -->
-</div>
-<div style="text-align: center; padding-bottom: 5vh;">
-  <button type="button" class="btn btn-warning" style="border-radius: 55%; padding: 3vh;"><i class="fa fa-plus" aria-hidden="true">Add</i></button>
-</div>
+    <div class="form-group col-md-4">
+      <label for="inputCity"><strong>Author Name*</strong></label>
+      <input type="text" class="form-control" id="inputCity" formControlName="aname">
+      <span class="error" *ngIf="aname.invalid && aname.touched">Author name is requerd!</span>
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputCity"><strong>Year*</strong></label>
+      <input type="text" class="form-control" id="inputCity" formControlName="year">
+      <span class="error" *ngIf="year.invalid && year.touched">year is requerd!</span>
+    </div>
+    <label style="margin-left: 10vh;"><strong>Laungage*</strong></label>
+    <div class="form-check" style="margin-left: 10vh;">
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+      <label class="form-check-label" for="exampleRadios1">
+        Sinhala
+      </label> <br>
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+      <label class="form-check-label" for="exampleRadios1">
+        English
+      </label><br>
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+      <label class="form-check-label" for="exampleRadios1">
+        Tamil
+      </label>
+    </div>
+    <div class="form-group col-md-4">
+      <label><strong>Eddition</strong></label><br>
+      <mat-form-field class="example-ripple-form-field">
+        <input matInput [(ngModel)]="radius" type="number" placeholder="Editon"
+          style="padding-bottom: 5px; margin-bottom: 5px;">
+      </mat-form-field>
+    </div>
+  </div>
+  <div style="text-align: center; padding-bottom: 5vh;">
+    <button type="button" class="btn btn-warning" style="border-radius: 55%; padding: 3vh;" routerLink="/my_books"><i
+        class="fa fa-plus" aria-hidden="true">Add</i></button>
+  </div>
+</form>

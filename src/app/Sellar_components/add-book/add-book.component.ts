@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 
 @Component({
@@ -12,10 +13,14 @@ export class AddBookComponent implements OnInit {
   file_remove = "";  
   box = ("box");
   x = ("");
+  radius: number;
+  conditon = 'x';
 
   isShow = (false);
   isProgrress = (false);
   constructor() { }
+
+ 
 
   ngOnInit(): void {
   }
@@ -43,5 +48,12 @@ export class AddBookComponent implements OnInit {
   closed(){    
     this.isShow = !this.isShow;
   }
-
+  AddForm = new FormGroup({
+    bname: new FormControl('', Validators.required),
+    aname: new FormControl('', Validators.required),
+    year: new FormControl('', Validators.required)
+  })
+  get bname(){return this.AddForm.get('bname')}
+  get aname(){return this.AddForm.get('aname')}
+  get year(){return this.AddForm.get('year')}
 }
