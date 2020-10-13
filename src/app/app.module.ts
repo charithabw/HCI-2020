@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -94,9 +94,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     BrowserAnimationsModule,
     MatDialogModule,
     MatFormFieldModule,
-    MatProgressBarModule, 
-    MatRippleModule,   
-    FormsModule,
+    MatProgressBarModule,
+    MatRippleModule,
     ReactiveFormsModule,
     MatTableModule,
     MatSortModule,
@@ -104,8 +103,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
-    
-   
+
+
 
     MatProgressBarModule,
     MatRippleModule,
@@ -118,7 +117,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatIconModule,
     MatCardModule,
     MatTabsModule,
-    FormsModule,
+
 
   ],
   providers: [],
