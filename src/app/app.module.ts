@@ -26,6 +26,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 
 
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
@@ -103,6 +105,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
+    MatGridListModule,
 
 
 
