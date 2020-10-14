@@ -14,4 +14,7 @@
     padding: 5px;
     text-align: left;
     }
-  
+  .mat-grid-tile {
+      background: lightblue;
+    }
+    
