@@ -1,40 +1,52 @@
+<!--<img src="../assets/signup_images/book1.jpg" alt="pencilbook" style="background-size: cover; background-repeat: no-repeat; width:100%; height:100%;"> -->
+
 <div class="container-fluid">
-    <!---
-      <img src="../assets/signup_images/1.jpg" alt="pencilbook">
-    -->
-    <div style="background-image: url('../assets/signup_images/book1.jpg'); background-size: cover; width: 100%; height: 100%;">
-    <div class ="form-box">
-    <h3><b> Sign Up</b> </h3>
-    <h4>Please fill in this form to create an account.</h4>
-    <hr>
   
-    <form #userForm="ngForm">
+  <form class ="form-box" style="height: auto;">
+    <div style="background-image: url('../assets/signup_images/bubble1.jpg'); background-size: cover; width: 100%; height: 100%;">
+    
+      
+      <h2><b> Sign Up</b> </h2>
+      
+        <h4>Please fill in this form to create an account.</h4>
+      
+        
+        
+        <form #userForm="ngForm">
   
   
       <div class="form-group">
-        
-      <input type="text" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" class="form-control is-invalid" ngModel placeholder="Enter Fisrt Name" name ="fulName" >
+        <i class="fa fa-user"></i>
+        <label class="control-label col-sm-10" for="pwd"><b>Full Name</b></label>
+      <input type="text" required #name="ngModel" [class.is-invalid]="name.invalid && name.touched" class="form-control is-invalid" ngModel placeholder="Enter Full Name" name ="fulName" >
       <small class="text-danger" [class.d-none]="name.valid || name.untouched"><b>Full Name is required*</b></small>
       </div>
       
       
+      
   
       <div class="form-group">
+        <i class="fa fa-home"></i>
+        <label class="control-label col-sm-10" for="pwd"><b>Address</b></label>
         
         <input type="text" required #address="ngModel" [class.is-invalid]="address.invalid && address.touched" class="form-control is-invalid " ngModel placeholder="Enter Address" name ="address">
         <small class="text-danger" [class.d-none]="address.valid || address.untouched"><b>Address is required*</b></small>
       </div>
   
       <div class="form-group">
-        <select (blur)="validateTopic(topic.value)" (change)="validateTopic(topic.value)" class="custom-select"  #topic="ngModel" [class.is-invalid]="topicHasError && topic.touched" ngModel name="topic">
-          <option value="default">Select City</option>
+        <i class="fa fa-map-marker"></i>
+        <label class="control-label col-sm-10" for="pwd"><b>City</b></label>
+        <select (blur)="validateTopic(topic.value)" (change)="validateTopic(topic.value)" class="custom-select"  #topic="ngModel" [class.is-invalid]="topic.invalid && topic.touched" ngModel name="topic">
+          <option value="">Select City</option>
           <option *ngFor="let topic of topics">{{topic}}</option>
           </select>
-          <small class="text-danger" [class.d-none]="!topicHasError || topic.untouched"><b>City is required* </b></small>
+          <small class="text-danger" [class.d-none]="topic.valid || topic.untouched"><b>City is required* </b></small>
   
       </div>
       
       <div class="form-group">
+        <i class="fa fa-phone"></i>
+        <label class="control-label col-sm-10" for="pwd"><b>Phone Number</b></label>
        
         <input type="tel" required #phone="ngModel" pattern="^\d{10}$" [class.is-invalid]="phone.invalid && phone.touched" class="form-control is-invalid" ngModel placeholder="Enter Phone Number" name ="phone" >
         <small class="text-danger" [class.d-none]="phone.valid || phone.untouched"><b>Phone number is required and must Be 10 digits*</b></small>
@@ -43,16 +55,16 @@
       </div>
   
       <div class="form-group">
+        <i class="fa fa-envelope"></i>
+        <label class="control-label col-sm-10" for="pwd"><b>Email Address</b></label>
         
         <input type="email" required #email="ngModel" pattern="^[a-z]+[a-z0-9._-]+@[a-z]+\.[a-z.]{2,5}$" [class.is-invalid]="email.invalid && email.touched" class="form-control is-invalid" ngModel placeholder="Enter Email Address" name ="email" >
         <small class="text-danger" [class.d-none]="email.valid || email.untouched"><b>Email Address is required*</b></small>
-  
-  
-  
-        
       </div>
   
       <div class="form-group">
+        <i class="fa fa-key"></i>
+        <label class="control-label col-sm-10" for="pwd"><b>Password</b></label>
         
         <input type="password" required #password="ngModel" class="form-control is-invalid" ngModel placeholder="Enter Password" name ="password" [class.is-invalid]="password.invalid && password.touched" >
         <small class="text-danger" [class.d-none]="password.valid || password.untouched"><b>Please Enter Password*</b></small>
@@ -61,10 +73,12 @@
   
       
       <div class="form-group">
+        <i class="fa fa-key"></i>
+        <label class="control-label col-sm-10" for="pwd"><b>Confirm Password</b></label>
         
-        <input type="password" required #rpswd="ngModel" class="form-control is-invalid" ngModel placeholder="Enter Repeat Password" name ="rpswd" [class.is-invalid]="rpswd.invalid && rpswd.touched" >
+        <input type="password" required #rpswd="ngModel" class="form-control is-invalid" ngModel placeholder="Enter Confirm Password" name ="rpswd" [class.is-invalid]="rpswd.invalid && rpswd.touched" >
         
-        <small class="text-danger" [class.d-none]="rpswd.valid || rpswd.untouched"><b>Please Enter Repeat Password*</b></small>
+        <small class="text-danger" [class.d-none]="rpswd.valid || rpswd.untouched"><b>Please Enter Confirm Password*</b></small>
      
       </div>
   
@@ -83,8 +97,9 @@
   
       <button class = "btn btn-primary" type="submit"><b>Signup</b></button>
   </form>
+    </div>
+</form>
   
-  </div>
-  </div>
-  </div>
+</div>
+  
   

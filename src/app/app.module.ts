@@ -46,6 +46,12 @@ import { OrderViewComponent } from './Buyer_component/order-details/order-view/o
 
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
+
+import { AboutusComponentComponent } from './aboutus_components/aboutus-component/aboutus-component.component';
+import { FAQComponent } from './faq_components/f-aq/f-aq.component';
+
+
+
 import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
 import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
 import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
@@ -58,6 +64,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
+
 
 
 
@@ -87,11 +94,20 @@ import { SingleBookComponent } from './single_book_components/single-book/single
     OrderViewComponent,
     SignupComponent,
     SignupDetailsComponent,
+
+    AboutusComponentComponent,
+FAQComponent,
+    
+    
+    
+    
+
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
     SellarStteperComponent,
     SingleBookComponent,
+
 
 
 
