@@ -1,3 +1,32 @@
-button{
-    margin: 5vh;
+
+.path a, .arrow{
+    color: rosybrown;
+}
+.path a:hover{
+    color: royalblue;
+}
+.lastPath a{
+    color: black;
+    
+}
+.lastPath{
+    background-color: #F3F5F5;
+    padding: 2vh;
+}  
+a {
+    text-transform: uppercase;
+    color: #F4604B;
+   
+}
+.myb{
+    border-radius: 55%; 
+    padding: 3vh; margin-right: 40%; 
+    margin-bottom: 5vh;
+   
+}
+.myb:hover{
+   border-radius: 10%;  
+   background-color: darkorange;
+   transition: 1s;
+   
 }

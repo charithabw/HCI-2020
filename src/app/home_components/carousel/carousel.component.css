@@ -5,7 +5,11 @@
     transform: translate(-50%, -50%);
 }
 .imgText:hover{
+    border: solid #8EB0B0;
     color: aqua;
+    font-size: x-large;
+    padding: 2vh;   
+    transition: .4s;
 }
 .imgBtn{
     position: absolute;
