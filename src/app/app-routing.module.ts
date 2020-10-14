@@ -19,7 +19,9 @@ import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sel
 import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
 import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
+import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
+
 
 
 const routes: Routes = [
@@ -46,6 +48,7 @@ const routes: Routes = [
   { path: 'place_order', component: PlaceOrderComponent },
   { path: 'login', component: LoginUserComponent },
   { path: 'singup', component: SignupComponent },
+  { path: 'sellar_stepper', component: SellarStteperComponent },
   { path: 'single_book', component: SingleBookComponent},
 
 ];
