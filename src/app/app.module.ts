@@ -26,6 +26,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatStepperModule } from '@angular/material/stepper';
 
 
 import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
@@ -53,6 +55,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 
 import { MatTabsModule } from '@angular/material/tabs';
+import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 
 
 
@@ -84,6 +87,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
+    SellarStteperComponent,
 
 
 
@@ -103,6 +107,8 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
+    MatTooltipModule,
+    MatStepperModule,
 
 
 

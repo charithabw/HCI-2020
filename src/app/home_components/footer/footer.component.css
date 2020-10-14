@@ -52,6 +52,9 @@ h2{
     color: #999;
     text-decoration: none;
 }
+.segment-two ul li a:hover{
+    color: #F8940C;
+}
 .segment-three h2{
     color: #fff;
     font-family: Poppins;
@@ -75,6 +78,9 @@ h2{
     color: #fff;
     padding: 10px 12px;
 }
+.segment-three a i:hover{
+    color: #3330E1;
+}
 .segment-four h2{
     color: #fff;
     font-family: Poppins;
@@ -88,10 +94,14 @@ h2{
 .segment-four form input[type=submit]{
     background: #c65039;
     border: none;
-    padding: 3px 15px;
-    margin-left: -5px;
+    /* padding: 3px 15px; */
+    margin-right: -15px;
     color: #fff;
+    /* margin-left: 5px; */
     text-transform: uppercase;
+}
+.segment-four form input[type=email]{
+    margin-right: 10px;
 }
 .footer-bottom-text{
     text-align: center;
