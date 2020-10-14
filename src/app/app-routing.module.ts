@@ -12,20 +12,15 @@ import { UserProfileComponent } from './Buyer_component/user-profile/user-profil
 import { PersonalSettingComponent } from './Buyer_component/personal-setting/personal-setting.component';
 import { PrivacySettingComponent } from './Buyer_component/privacy-setting/privacy-setting.component';
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
-
 import { OrderViewComponent } from './Buyer_component/order-details/order-view/order-view.component';
-
-
-
 import { SignupComponent } from './signup_component/signup/signup.component';
-
 import { PlaceOrderComponent} from './Place_order_components/place-order/place-order.component';
 import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
 import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
 import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
-
+import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
 
 
 
@@ -50,12 +45,11 @@ const routes: Routes = [
   { path: 'payment', component: SellarPaymentsComponent },
   { path: 'my_books', component: SellarMyBooksComponent },
   { path: 'sold_books', component: SellarSoldBooksComponent },
-
   { path: 'place_order', component: PlaceOrderComponent },
   { path: 'login', component: LoginUserComponent },
   { path: 'singup', component: SignupComponent },
   { path: 'sellar_stepper', component: SellarStteperComponent },
-
+  { path: 'single_book', component: SingleBookComponent},
 
 ];
 

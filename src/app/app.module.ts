@@ -55,7 +55,10 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 
 import { MatTabsModule } from '@angular/material/tabs';
+
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
+import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
+
 
 
 
@@ -88,6 +91,8 @@ import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sella
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
     SellarStteperComponent,
+    SingleBookComponent,
+
 
 
 
