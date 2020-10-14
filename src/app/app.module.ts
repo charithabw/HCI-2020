@@ -53,6 +53,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 
 import { MatTabsModule } from '@angular/material/tabs';
+import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
 
 
 
@@ -84,6 +85,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
+    SingleBookComponent,
 
 
 
