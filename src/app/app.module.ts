@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -110,9 +110,8 @@ FAQComponent,
     BrowserAnimationsModule,
     MatDialogModule,
     MatFormFieldModule,
-    MatProgressBarModule, 
-    MatRippleModule,   
-    FormsModule,
+    MatProgressBarModule,
+    MatRippleModule,
     ReactiveFormsModule,
     MatTableModule,
     MatSortModule,
@@ -120,8 +119,8 @@ FAQComponent,
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
-    
-   
+
+
 
     MatProgressBarModule,
     MatRippleModule,
@@ -134,7 +133,7 @@ FAQComponent,
     MatIconModule,
     MatCardModule,
     MatTabsModule,
-    FormsModule,
+
 
   ],
   providers: [],
