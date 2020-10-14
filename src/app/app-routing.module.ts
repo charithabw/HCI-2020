@@ -21,6 +21,7 @@ import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
+import { AboutusComponentComponent } from './aboutus_components/aboutus-component/aboutus-component.component';
 
 
 
@@ -50,6 +51,7 @@ const routes: Routes = [
   { path: 'singup', component: SignupComponent },
   { path: 'sellar_stepper', component: SellarStteperComponent },
   { path: 'single_book', component: SingleBookComponent},
+  { path: 'aboutus', component: AboutusComponentComponent }
 
 ];
 
