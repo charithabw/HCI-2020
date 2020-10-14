@@ -44,11 +44,12 @@ import { OrderViewComponent } from './Buyer_component/order-details/order-view/o
 
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
-<<<<<<< HEAD
-import { AboutusComponentComponent } from './aboutus-component/aboutus-component.component';
+
+import { AboutusComponentComponent } from './aboutus_components/aboutus-component/aboutus-component.component';
+import { FAQComponent } from './faq_components/f-aq/f-aq.component';
 
 
-=======
+
 import { SellarPaymentsComponent } from './Sellar_components/sellar-payments/sellar-payments.component';
 import { SellarMyBooksComponent } from './Sellar_components/sellar-my-books/sellar-my-books.component';
 import { SellarSoldBooksComponent } from './Sellar_components/sellar-sold-books/sellar-sold-books.component';
@@ -58,7 +59,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatIconModule } from '@angular/material/icon';
 
 import { MatTabsModule } from '@angular/material/tabs';
->>>>>>> 770110ee712cea406d277763ee70303adb903c0c
+
 
 
 
@@ -87,19 +88,20 @@ import { MatTabsModule } from '@angular/material/tabs';
     OrderViewComponent,
     SignupComponent,
     SignupDetailsComponent,
-<<<<<<< HEAD
-    AboutusComponentComponent
+
+    AboutusComponentComponent,
+FAQComponent,
     
     
     
     
-=======
+
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
 
 
->>>>>>> 770110ee712cea406d277763ee70303adb903c0c
+
 
   ],
   imports: [
