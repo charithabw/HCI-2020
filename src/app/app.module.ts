@@ -30,6 +30,10 @@ import { PrivacySettingComponent } from './Buyer_component/privacy-setting/priva
 import { OrderDetailsComponent } from './Buyer_component/order-details/order-details.component';
 import { SignupComponent } from './signup_component/signup/signup.component';
 import { SignupDetailsComponent } from './signup_component/signup-details/signup-details.component';
+import { AboutusComponentComponent } from './aboutus-component/aboutus-component.component';
+
+
+
 
 
 
@@ -55,6 +59,11 @@ import { SignupDetailsComponent } from './signup_component/signup-details/signup
     OrderDetailsComponent,
     SignupComponent,
     SignupDetailsComponent,
+    AboutusComponentComponent
+    
+    
+    
+    
 
   ],
   imports: [
