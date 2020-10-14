@@ -1,0 +1,17 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image:src="assets\Buyer_images\bookbck.png";
+    background-size: cover;
+  }
+  .table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+  .th, td {
+    padding: 5px;
+    text-align: left;
+    }
+  
