@@ -30,6 +30,7 @@ import { FormsModule } from '@angular/forms';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
 import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component';
 
 
 @NgModule({
@@ -47,6 +48,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     //SigninComponentComponent,
     LoginUserComponent,
     FeedbackComponent,
+    ContactUsComponent,
 
   ],
   imports: [
