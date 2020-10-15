@@ -1,0 +1,47 @@
+.vl {
+  border-right: thin solid black;
+  height: 90px;
+  margin-top: 5px;
+  }
+.bookButton{
+  justify-content: flex-end;
+}
+.cart_title{
+  font-size: 20px;
+}
+
+.protection_dec{
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 350px) and (max-width: 485px){
+  .vl{
+    height: 200px;
+  }
+  .bookButton{
+    justify-content: center;
+    display: flex;
+  }
+}
+@media only screen and (min-width: 485px) and (max-width: 885px){
+  .vl{
+    height: 110px;
+  }
+}
+.path{
+  padding-top: 50vh;
+}
+.path a, .arrow{
+  color: rosybrown;
+
+}
+.path a:hover{
+  color: royalblue;
+}
+.lastPath a{
+  color: black;
+}
+.lastPath{
+  background-color: #F3F5F5;
+  padding: 2vh;
+}

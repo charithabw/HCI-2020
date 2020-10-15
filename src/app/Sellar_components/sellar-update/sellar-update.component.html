@@ -1,36 +1,61 @@
-<div class="container" style="margin-bottom: 20vh; margin-top: 10vh;">
+<div style="margin-top: 10vh;">
+<span class = "path"><a routerLink = "">home</a><span class="arrow"> > </span> <span><a routerLink = "/seller">sellar</a></span> <span class="arrow"> > </span> <span class="lastPath"><a  routerLink = "/update">update</a></span></span>
+
+
+<div class="container" style="margin-bottom: 20vh; margin-top: 10vh; width: 75%; background-color:  #F8F9F9;">
     <div style="text-align: right;">
         <img src="../assets/sellar_images/Pro_pic.png" alt="profile picture" width="5%" style="padding-bottom: 10vh;">
     </div>
-    <form>       
+    <form [formGroup] = "updateForm" >       
         <div class="form-group">
-          <label for="inputAddress" ><strong>First Name</strong> </label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="charitha">
+          <mat-form-field class="example-full-width">
+            <mat-label><strong>Fisrt Name</strong></mat-label>
+            <input matInput placeholder="  Ex. Charitha" formControlName = "fname">
+          </mat-form-field>
+          <span class="error" *ngIf="fname.invalid && fname.touched">first name is requerd!</span>
         </div>
         <div class="form-group">
-          <label for="inputAddress2"><strong>Last Name</strong></label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="bandara">
+          <mat-form-field class="example-full-width">
+            <mat-label><strong>Last Name</strong></mat-label>
+            <input matInput placeholder="  Ex. Bandara" formControlName = "lname">
+          </mat-form-field>
+          <span class="error" *ngIf="lname.invalid && lname.touched">last name is requerd!</span>
         </div>
         <div class="form-group">
-            <label for="inputAddress"><strong>Email</strong></label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="charitha">
+          <mat-form-field class="example-full-width">
+            <mat-label><strong>Email</strong></mat-label>
+            <input matInput placeholder="Ex. charithabw98@gmail.com" formControlName = "email">
+          </mat-form-field>
+          <span class="error" *ngIf="email.invalid && email.touched">email is not valid!</span>
           </div>
         <div class="form-group">
-            <label for="inputAddress2"><strong>Shop Name</strong></label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="shop">
+          <mat-form-field class="example-full-width">
+            <mat-label><strong>Shop Name</strong></mat-label>
+            <input matInput placeholder="Ex. book shop" formControlName = "sname">
+          </mat-form-field>
+          <span class="error" *ngIf="sname.invalid && sname.touched">shop name is requerd!</span>
           </div>
         <div class="form-row">
           <div class="form-group col-md-4">
-            <label for="inputCity"><strong>City</strong></label>
-            <input type="text" class="form-control" id="inputCity">
+            <mat-form-field class="example-full-width">
+              <mat-label><strong>City</strong></mat-label>
+              <input matInput placeholder="Ex. colombo 01" formControlName = "city">
+            </mat-form-field>
+            <span class="error" *ngIf="city.invalid && city.touched">city is requerd!</span>
           </div>
           <div class="form-group col-md-4">
-            <label for="inputCity"><strong>Address 01</strong></label>
-            <input type="text" class="form-control" id="inputCity">
+            <mat-form-field class="example-full-width">
+              <mat-label><strong>Adderess 01</strong></mat-label>
+              <input matInput placeholder="Ex. panadura" formControlName = "addrs1">
+            </mat-form-field>
+            <span class="error" *ngIf="addrs1.invalid && addrs1.touched">Adderess is requerd!</span>
           </div>
           <div class="form-group col-md-4">
-            <label for="inputCity"><strong>Address 02</strong></label>
-            <input type="text" class="form-control" id="inputCity">
+            <mat-form-field class="example-full-width">
+              <mat-label><strong>Address 02</strong></mat-label>
+              <input matInput placeholder="Ex. panadura" formControlName = "addrs2">
+            </mat-form-field>
+            <span class="error" *ngIf="addrs2.invalid && addrs2.touched">Adderess is requerd!</span>
           </div>
          
           <div class="form-group col-md-4">
@@ -45,16 +70,22 @@
         </div> 
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="inputPassword4"><strong>Password</strong></label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              <mat-form-field class="example-full-width">
+                <mat-label><strong>Password</strong></mat-label>
+                <input type="password" matInput placeholder="Ex. abc@1M">
+              </mat-form-field>
               </div>
             <div class="form-group col-md-6">
-              <label for="inputPassword4"><strong>Re-Password</strong></label>
-              <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              <mat-form-field class="example-full-width">
+                <mat-label><strong>Re-password</strong></mat-label>
+                <input type="password" matInput placeholder="Ex. abc@1Ma">
+              </mat-form-field>
             </div>
           </div>
         <div style="text-align: center;">
-        <button type="submit" class="btn btn-primary" style="width: 150vh; margin-top: 15vh;">update</button>
+        <button type="submit" class="btn btn-primary" style="width: 150vh; margin-top: 15vh;" >update</button>
         </div>
     </form>
+    
+</div>
 </div>

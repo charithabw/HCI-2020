@@ -1,0 +1,62 @@
+<div style="margin-top: 10vh;">
+<div class="container" style="margin-bottom: 30%;">  
+  <mat-horizontal-stepper linear #stepper>
+    <mat-step [stepControl]="firstFormGroup" [editable]="true">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Read and agree the terms & conditions</ng-template>
+        <p style="padding-top: 5vh;"><strong>Terms of service are the legal agreements between a 
+            service provider and a person who wants to use that service.<br> 
+            The person must agree to abide by the terms of service in order 
+            to use the offered service. 
+            Terms of service can also be merely a disclaimer, <br>
+            especially regarding the use of websites</strong></p>
+        <p style="padding-top: 5vh; padding-bottom: 5vh;">Your must fill your <strong>shop name</strong> , <strong>payment method</strong> and <strong>shop's address</strong></p>
+        <mat-checkbox formControlName = "firstCtrl" required>Agreed *</mat-checkbox>
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup" [editable]="true">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Fill out your address</ng-template>
+        <mat-form-field>
+          <mat-label>Shop name</mat-label>
+          <input matInput formControlName="secondCtrl" placeholder="Ex. Atlas"
+                 required>
+                </mat-form-field><br>               
+                <div class="form-group form-check">
+                    <label>Payment Options *</label><br>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" checked required>
+                    <label class="form-check-label" for="exampleCheck1">Card payment</label><br>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+                    <label class="form-check-label" for="exampleCheck1">Ez</label><br>
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+                    <label class="form-check-label" for="exampleCheck1">mCash</label>
+                  </div>
+              
+                <mat-form-field>
+         <mat-label>Shop's address</mat-label>
+          <input matInput formControlName="secondCtrl" placeholder="Ex. 1 Main St, New York, NY"
+                 required>
+        </mat-form-field>
+        <div>
+          <button mat-button matStepperPrevious>Back</button>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step>
+      <ng-template matStepLabel>Done</ng-template>
+      <p style="padding-top: 5vh; padding-bottom: 5vh;">You are now done.</p>
+      <h3>Congratulations!!! You can start as a Sellar now</h3>
+      <h4 style="margin-left: 5vh;"> <a routerLink = "/seller">Click Here</a></h4>
+      <div>
+        <button mat-button matStepperPrevious>Back</button>
+        <button mat-button (click)="stepper.reset()">Reset</button>
+      </div>
+    </mat-step>
+  </mat-horizontal-stepper>
+  
+</div>
+</div>

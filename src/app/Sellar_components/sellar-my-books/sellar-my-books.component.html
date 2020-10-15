@@ -1,0 +1,167 @@
+<div style="margin-top: 10vh;">
+<span class = "path"><a routerLink = "">home</a><span class="arrow"> > </span> <span><a routerLink = "/seller">sellar</a></span> <span class="arrow"> > </span> <span class="lastPath"><a  routerLink = "/my_books">my-book</a></span></span>
+
+<div class="container" style="padding-bottom: 235vh; padding-top: 0vh;">
+    <div style="text-align: right; padding-bottom: 5vh;">
+        <button type="button" class="btn btn-warning" style="border-radius: 55%; padding: 3vh;" routerLink = "/add_book"><i class="fa fa-plus" aria-hidden="true">Add</i></button>
+      </div>
+    <div *ngIf="isShow1" style="width: 33.33%; float: left; margin-top: 7vh;">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Book Name</mat-card-title>
+                <mat-card-subtitle>by Authour</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="..\assets\home_images\b7.jpg" height="300px"
+                alt="Book 1">
+            <mat-card-content>
+                <strong><p>Description</p></strong>
+                <p>
+                    A book is a medium for recording information in the form of writing or images,
+                     typically composed of many pages bound together and protected by a cover.
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <div class="example-button-container">
+                    <button mat-fab color="primary" aria-label="Example icon button with a delete icon"
+                        (click)="remove1()">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div *ngIf="isShow2" style="width: 33.33%; float: left; margin-top: 7vh;">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Book Name</mat-card-title>
+                <mat-card-subtitle>by Authour</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="..\assets\home_images\b8.jpg" height="300px"
+                alt="Photo of Book 2">
+            <mat-card-content>
+                <strong><p>Description</p></strong>
+                <p>
+                    A book is a medium for recording information in the form of writing or images,
+                     typically composed of many pages bound together and protected by a cover.
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <div class="example-button-container">
+                    <button mat-fab color="primary" aria-label="Example icon button with a delete icon"
+                        (click)="remove2()">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+    <div *ngIf="isShow3" style="width: 33.33%; float: left; margin-top: 7vh;">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Book Name</mat-card-title>
+                <mat-card-subtitle>by Authour</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="..\assets\home_images\b9.jpg" height="300px"
+                alt="Photo of book 3">
+            <mat-card-content>
+                <strong><p>Description</p></strong>
+                <p>
+                    A book is a medium for recording information in the form of writing or images,
+                     typically composed of many pages bound together and protected by a cover.
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <div class="example-button-container">
+                    <button mat-fab color="primary" aria-label="Example icon button with a delete icon"
+                        (click)="remove3()">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+
+    <div *ngIf="isShow4" style="width: 33%; float: left; margin-top: 7vh;">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Book Name</mat-card-title>
+                <mat-card-subtitle>by Authour</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="..\assets\home_images\b10.jpg" height="300px"
+                alt="Photo of book 4">
+            <mat-card-content>
+                <strong><p>Description</p></strong>
+                <p>
+                    A book is a medium for recording information in the form of writing or images,
+                     typically composed of many pages bound together and protected by a cover.
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <div class="example-button-container">
+                    <button mat-fab color="primary" aria-label="Example icon button with a delete icon"
+                        (click)="remove4()">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div *ngIf="isShow5" style="width: 33%; float: left; margin-top: 7vh;">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Book Name</mat-card-title>
+                <mat-card-subtitle>by Authour</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="..\assets\home_images\b11.jpg" height="300px"
+                alt="Photo of a book 5">
+            <mat-card-content>
+                <strong><p>Description</p></strong>
+                <p>
+                    A book is a medium for recording information in the form of writing or images,
+                     typically composed of many pages bound together and protected by a cover.
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <div class="example-button-container">
+                    <button mat-fab color="primary" aria-label="Example icon button with a delete icon"
+                        (click)="remove5()">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div *ngIf="isShow6" style="width: 33%; float: left; margin-top: 7vh;">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Book Name</mat-card-title>
+                <mat-card-subtitle>by Authour</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="..\assets\home_images\b12.jpg" height="300px"
+                alt="Photo of a book6">
+            <mat-card-content>
+                <strong><p>Description</p></strong>
+                <p>
+                    A book is a medium for recording information in the form of writing or images,
+                     typically composed of many pages bound together and protected by a cover.
+                </p>
+            </mat-card-content>
+            <mat-card-actions>
+                <div class="example-button-container">
+                    <button mat-fab color="primary" aria-label="Example icon button with a delete icon"
+                        (click)="remove6()">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>
+</div>
