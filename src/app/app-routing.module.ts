@@ -22,7 +22,7 @@ import { LoginUserComponent } from './Signin_component/login-user/login-user.com
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
 import { AboutusComponentComponent } from './aboutus_components/aboutus-component/aboutus-component.component';
-
+import { AllBooksComponent } from './all_book_component/all-books/all-books.component';
 
 
 const routes: Routes = [
@@ -50,8 +50,9 @@ const routes: Routes = [
   { path: 'login', component: LoginUserComponent },
   { path: 'singup', component: SignupComponent },
   { path: 'sellar_stepper', component: SellarStteperComponent },
-  { path: 'single_book', component: SingleBookComponent},
-  { path: 'aboutus', component: AboutusComponentComponent }
+  { path: 'single_book', component: SingleBookComponent },
+  { path: 'aboutus', component: AboutusComponentComponent },
+  { path: 'book_list', component: AllBooksComponent }
 
 ];
 
