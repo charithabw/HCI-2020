@@ -1,6 +1,7 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 .example-card {
     max-width: 200px;
+    
   }
   
   .example-header-image {
@@ -13,3 +14,16 @@
     width: 120px;
     
   }
+.path a, .arrow{
+    color: rosybrown;
+}
+.path a:hover{
+    color: royalblue;
+}
+.lastPath a{
+    color: black;
+}
+.lastPath{
+  background-color: #F3F5F5;
+  padding: 2vh;
+} 

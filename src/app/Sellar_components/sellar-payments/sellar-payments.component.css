@@ -49,4 +49,17 @@ table {
   .mat-form-field {
     font-size: 14px;
     width: 100%;
-  }  
+  } 
+.path a, .arrow{
+    color: rosybrown;
+}
+.path a:hover{
+    color: royalblue;
+}
+.lastPath a{
+    color: black;
+} 
+.lastPath{
+  background-color: #F3F5F5;
+  padding: 2vh;
+} 

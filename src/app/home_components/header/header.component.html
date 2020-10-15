@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#" style="font-family: Comic Sans MS;">HCI</a>
+    <a class="navbar-brand" href="#" style="font-family: Comic Sans MS; color: #06A1E9;">HCI</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -12,12 +12,15 @@
         <li class="nav-item">
           <a class="nav-link" href="#carouselID">Frequent Books</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#help">Help</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" routerLink = "/sellar_stepper">Sell Books</a>
             <a class="dropdown-item" href="#">Another action</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
@@ -30,7 +33,7 @@
 
     </div>
     <div style="padding-right: 5vh;">
-      <a (click) ="openDialog()" style="padding-right: 5vh;"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
-      <a href="cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
+      <a (click) ="openDialog()" style="padding-right: 5vh;" matTooltip="login/Signup"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+      <a href="cart" matTooltip="Show Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></a>
     </div>
   </nav>
