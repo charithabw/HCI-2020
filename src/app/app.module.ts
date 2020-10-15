@@ -27,6 +27,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import {MatGridListModule} from '@angular/material/grid-list';
 
@@ -114,9 +115,10 @@ import { AllBooksComponent } from './all_book_component/all-books/all-books.comp
     SignupDetailsComponent,
 
     AboutusComponentComponent,
+
+    FAQComponent,
+
 FAQComponent,
-
-
 
 
 
@@ -144,6 +146,7 @@ FAQComponent,
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
+    MatExpansionModule,
 
     MatGridListModule,
 
