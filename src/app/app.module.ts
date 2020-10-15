@@ -28,6 +28,8 @@ import { AddBookComponent } from './Sellar_components/add-book/add-book.componen
 import { FormsModule } from '@angular/forms';
 //import { SigninComponentComponent } from './signin-component/signin-component.component';
 import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
+import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -44,6 +46,7 @@ import { LoginUserComponent } from './Signin_component/login-user/login-user.com
     AddBookComponent,
     //SigninComponentComponent,
     LoginUserComponent,
+    FeedbackComponent,
 
   ],
   imports: [
@@ -63,6 +66,7 @@ import { LoginUserComponent } from './Signin_component/login-user/login-user.com
     MatCardModule,
     MatTabsModule,
     FormsModule,
+    NgbModule,
 
   ],
   providers: [],
