@@ -9,9 +9,8 @@
     <div class="box">
       <div class="btn_upload">
         <input type="file" id="upload_file" name="" (change)="selectFile($event)">
-        <i class="fa fa-cloud-upload icon">
-          <span class="title">Upload Image</span>
-        </i>
+        <i class="fa fa-cloud-upload icon"></i>
+        <span class="title"> Upload Image</span>
       </div>
       <div class="success"></div>
     </div>
@@ -28,18 +27,23 @@
   </div>
 </div>
 <form [formGroup]="AddForm">
-  <div style="margin-bottom: 15vh; margin-left: 25%; border: solid; margin-right: 30%; padding: 10px">
-    <div class="form-group col-md-4">
+  <div style="margin-bottom: 15vh; margin-left: 25%;  margin-right: 30%; padding: 10px; background-color:#F8F9F9 ;">
+    <div class=" col-md-10">
+      <label for="inputCity"><strong>ISBM number*</strong></label>
+      <input type="text" class="form-control" id="inputCity" formControlName="isbm">
+      <span class="error" *ngIf="isbm.invalid && isbm.touched">Isbm is requerd!</span>
+    </div>
+    <div class="form-group col-md-10">
       <label for="inputCity"><strong>Book Name*</strong></label>
       <input type="text" class="form-control" id="inputCity" formControlName="bname">
       <span class="error" *ngIf="bname.invalid && bname.touched">book name is requerd!</span>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-10">
       <label for="inputCity"><strong>Author Name*</strong></label>
       <input type="text" class="form-control" id="inputCity" formControlName="aname">
       <span class="error" *ngIf="aname.invalid && aname.touched">Author name is requerd!</span>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-10">
       <label for="inputCity"><strong>Year*</strong></label>
       <input type="text" class="form-control" id="inputCity" formControlName="year">
       <span class="error" *ngIf="year.invalid && year.touched">year is requerd!</span>
@@ -59,7 +63,7 @@
         Tamil
       </label>
     </div>
-    <div class="form-group col-md-4">
+    <div class="form-group col-md-10">
       <label><strong>Eddition</strong></label><br>
       <mat-form-field class="example-ripple-form-field">
         <input matInput [(ngModel)]="radius" type="number" placeholder="Editon"
