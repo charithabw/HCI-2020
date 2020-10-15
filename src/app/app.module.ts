@@ -26,6 +26,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import {MatGridListModule} from '@angular/material/grid-list';
 
@@ -101,7 +102,7 @@ import { SingleBookComponent } from './single_book_components/single-book/single
     SignupDetailsComponent,
 
     AboutusComponentComponent,
-FAQComponent,
+    FAQComponent,
     
     
     
@@ -133,6 +134,7 @@ FAQComponent,
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
+    MatExpansionModule,
 
     MatGridListModule,
 

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  .faq{
+  
+  
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+  font-size: 25px;
+  }
+  .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .container{
+    padding:0 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 70%;
+    margin: 0 auto;
+  }
+   ul{
+      background-color:rgba(29, 245, 234, 0.2) ;
+     
+    }
+  
+    .ul1{
+      background-color:rgba(255, 204, 230, 0.5) ;
+    }
+  
+    .ul2{
+      background-color:rgba(255, 240, 179, 0.5) ;
+    }
+  
+    img{
+      width: 250px;
+      margin-top: 25px;
+      
+      
+    }
