@@ -4,13 +4,13 @@
     <mat-step [stepControl]="firstFormGroup" [editable]="true">
       <form [formGroup]="firstFormGroup">
         <ng-template matStepLabel>Read and agree the terms & conditions</ng-template>
-        <p><strong>Terms of service are the legal agreements between a 
+        <p style="padding-top: 5vh;"><strong>Terms of service are the legal agreements between a 
             service provider and a person who wants to use that service.<br> 
             The person must agree to abide by the terms of service in order 
             to use the offered service. 
             Terms of service can also be merely a disclaimer, <br>
             especially regarding the use of websites</strong></p>
-        <p>Your must fill your <strong>shop name</strong> , <strong>payment method</strong> and <strong>shop's address</strong></p>
+        <p style="padding-top: 5vh; padding-bottom: 5vh;">Your must fill your <strong>shop name</strong> , <strong>payment method</strong> and <strong>shop's address</strong></p>
         <mat-checkbox formControlName = "firstCtrl" required>Agreed *</mat-checkbox>
         <div>
           <button mat-button matStepperNext>Next</button>
@@ -48,9 +48,9 @@
     </mat-step>
     <mat-step>
       <ng-template matStepLabel>Done</ng-template>
-      <p>You are now done.</p>
+      <p style="padding-top: 5vh; padding-bottom: 5vh;">You are now done.</p>
       <h3>Congratulations!!! You can start as a Sellar now</h3>
-      <h4> <a routerLink = "/seller">Click Here</a></h4>
+      <h4 style="margin-left: 5vh;"> <a routerLink = "/seller">Click Here</a></h4>
       <div>
         <button mat-button matStepperPrevious>Back</button>
         <button mat-button (click)="stepper.reset()">Reset</button>
