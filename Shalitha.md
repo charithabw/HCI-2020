@@ -53,3 +53,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 <h3>2020-09-14</h3>
 <li>create single book component</li>
 <li>add css and bootstrap to single book</li>
+
+<h3>2020-09-15</h3>
+<li>Create book List component</li>
+<li>add css and bootstrap to book List</li>
+<li>add path in every page</li>
+<li>do changes to home mobile view</li>

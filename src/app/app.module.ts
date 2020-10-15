@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxSpinnerModule } from "ngx-spinner";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -68,8 +69,18 @@ import { MatIconModule } from '@angular/material/icon';
 
 import { MatTabsModule } from '@angular/material/tabs';
 
+import { AddBookComponent } from './Sellar_components/add-book/add-book.component';
+
+//import { SigninComponentComponent } from './signin-component/signin-component.component';
+import { LoginUserComponent } from './Signin_component/login-user/login-user.component';
+import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component';
+
+
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
+import { AllBooksComponent } from './all_book_component/all-books/all-books.component';
 
 
 
@@ -89,6 +100,8 @@ import { SingleBookComponent } from './single_book_components/single-book/single
     SellarUpdateComponent,
     AddBookComponent,
     LoginUserComponent,
+    FeedbackComponent,
+    ContactUsComponent,
     CartComponent,
     PaymentComponent,
     TrackMyOrderComponent,
@@ -102,20 +115,19 @@ import { SingleBookComponent } from './single_book_components/single-book/single
     SignupDetailsComponent,
 
     AboutusComponentComponent,
+
     FAQComponent,
-    
-    
-    
-    
+
+FAQComponent,
+
+
 
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
     SellarStteperComponent,
     SingleBookComponent,
-
-
-
+    AllBooksComponent,
 
 
   ],
@@ -140,7 +152,7 @@ import { SingleBookComponent } from './single_book_components/single-book/single
 
     MatTooltipModule,
     MatStepperModule,
-
+    NgxSpinnerModule,
 
 
 
@@ -156,9 +168,12 @@ import { SingleBookComponent } from './single_book_components/single-book/single
     MatCardModule,
     MatTabsModule,
 
+    NgbModule,
+
 
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
