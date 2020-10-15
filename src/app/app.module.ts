@@ -69,6 +69,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
+import { AllBooksComponent } from './all_book_component/all-books/all-books.component';
 
 
 
@@ -102,16 +103,17 @@ import { SingleBookComponent } from './single_book_components/single-book/single
 
     AboutusComponentComponent,
 FAQComponent,
-    
-    
-    
-    
+
+
+
+
 
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
     SellarStteperComponent,
     SingleBookComponent,
+    AllBooksComponent,
 
 
 
