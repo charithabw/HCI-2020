@@ -31,6 +31,7 @@ import { LoginUserComponent } from './Signin_component/login-user/login-user.com
 import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component';
+import { TestimonialComponent } from './Testimonials/testimonial/testimonial.component';
 
 
 @NgModule({
@@ -49,6 +50,7 @@ import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component
     LoginUserComponent,
     FeedbackComponent,
     ContactUsComponent,
+    TestimonialComponent,
 
   ],
   imports: [
