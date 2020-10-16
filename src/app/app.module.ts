@@ -82,6 +82,7 @@ import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sella
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
 import { PolicyComponentComponent } from './privacy_policy_Component/policy-component/policy-component.component';
 import { AllBooksComponent } from './all_book_component/all-books/all-books.component';
+import { TermsConditionComponent } from './TermsConditions_Components/terms-condition/terms-condition.component';
 
 
 
@@ -133,6 +134,7 @@ FAQComponent,
     PolicyComponentComponent,
 
     AllBooksComponent,
+    TermsConditionComponent,
 
 
 
