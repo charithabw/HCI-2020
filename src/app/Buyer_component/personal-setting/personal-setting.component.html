@@ -15,23 +15,25 @@
             <h1></h1>
         </div>
 
-        <form>
+        <form [formGroup] = "updateForm">
             <div>
                 <label for="fname"><strong>First Name</strong> </label>
-                <input type="text" class="form-control" id="fname" placeholder="John"><br>
-
+                <input type="text" class="form-control" id="fname" placeholder="John"  formControlName = "fname"><br>
+                <span class="error" *ngIf="fname.invalid && fname.touched">first name is requerd!</span>
             </div>
             <div>
                 <label for="lname"><strong>Last Name</strong> </label>
-                <input type="text" class="form-control" id="lname" placeholder="Doe"><br>
+                <input type="text" class="form-control" id="lname" placeholder="Doe"  formControlName = "lname"><br>
+                <span class="error" *ngIf="lname.invalid && lname.touched">last name is requerd!</span>
             </div>
             <div>
                 <label for="dname"><strong>Display Name</strong> </label>
-                <input type="text" class="form-control" id="dname" placeholder="JohnDoe"><br>
+                <input type="text" class="form-control" id="dname" placeholder="JohnDoe"  formControlName = "dname"><br>
+                <span class="error" *ngIf="dname.invalid && dname.touched">display name is requerd!</span>
             </div>
             <div>
                 <label for="inputAddress"><strong>Address</strong> </label>
-                <input type="address" class="form-control" id="inputAddress"><br>
+                <input type="address" class="form-control" id="inputAddress"  formControlName = "adderss"><br>
             </div>
         </form>
     </div>
