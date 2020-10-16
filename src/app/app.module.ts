@@ -76,6 +76,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component';
+import { TestimonialComponent } from './Testimonials/testimonial/testimonial.component';
 
 
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
@@ -105,6 +106,7 @@ import { TermsConditionComponent } from './TermsConditions_Components/terms-cond
     LoginUserComponent,
     FeedbackComponent,
     ContactUsComponent,
+    TestimonialComponent,
     CartComponent,
     PaymentComponent,
     TrackMyOrderComponent,
@@ -135,7 +137,6 @@ FAQComponent,
 
     AllBooksComponent,
     TermsConditionComponent,
-
 
 
   ],
