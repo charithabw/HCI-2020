@@ -8,7 +8,8 @@
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-    .btn {
+   .btn1 {
+
       background-color: DodgerBlue;
       border: none;
       color: white;
@@ -16,17 +17,21 @@
       font-size: 16px;
       cursor: pointer;
     }
-    
+
     /* Darker background on mouse-over */
-    .btn:hover {
+    .btn1:hover {
       background-color: RoyalBlue;
     }
+
     </style>
-<div>
+<div style = "width: 50%; float: left; padding: 5vh;">
   <br>
-       <p style="margin-left: 80vh; margin-bottom: 2vh; font-family: 'Monaco'; font-size: 40px; color :darkgray">Order details</p>    
+       <p style="margin-bottom: 2vh; font-family: 'Monaco'; font-size: 40px; color :darkgray">Order details</p>    
    
 </div>
+ <div style="width : 50%; float: right; text-align: left; padding: 5vh;">
+    <a type="button" class="btn btn-light" routerLink="/track_my_order" style="color: blue;">Track My Order</a>
+  </div>
 <div class ="container" style=" background-color: #e3eeee; border-radius: 30px;">
     <table style="width:100%">
         <tr>
@@ -74,7 +79,7 @@
    
       </table>
 </div>
+
 </div>
 <br>
 <br>
-
