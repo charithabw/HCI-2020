@@ -1,5 +1,10 @@
 # HCI-2020
-
+To run 
+1. go to project path
+2. open the cmd in that path
+3. type 'npm install' in the cmd
+4. type 'ng serve' in the cmd
+5. in browser type 'localhost:4200'
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
 ## Development server
