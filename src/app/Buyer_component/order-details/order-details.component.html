@@ -1,9 +1,15 @@
 <div style="margin-top: 10vh; ">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Add icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    .btn1 {
+  <br>
+  <span class = "path"><a routerLink = "">Home</a> >> <span class="arrow"> 
+     </span> <span><a routerLink = "/buyer">My account</a> >> </span> <span class="arrow"> 
+     </span> <span class="lastPath"><a  routerLink = "/b_order">Order details</a> </span></span>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+   .btn1 {
+
       background-color: DodgerBlue;
       border: none;
       color: white;
@@ -16,62 +22,63 @@
     .btn1:hover {
       background-color: RoyalBlue;
     }
-  </style>
-  <div style="width: 50%; float: left; padding: 5vh;">
-    <h1>
-      Order details !!
-    </h1>
-  </div>
-  <div style="width : 50%; float: right; text-align: left; padding: 5vh;">
+
+    </style>
+<div style = "width: 50%; float: left; padding: 5vh;">
+  <br>
+       <p style="margin-bottom: 2vh; font-family: 'Monaco'; font-size: 40px; color :darkgray">Order details</p>    
+   
+</div>
+ <div style="width : 50%; float: right; text-align: left; padding: 5vh;">
     <a type="button" class="btn btn-light" routerLink="/track_my_order" style="color: blue;">Track My Order</a>
   </div>
-  <div>
+<div class ="container" style=" background-color: #e3eeee; border-radius: 30px;">
     <table style="width:100%">
-      <tr>
-        <th>Order ID</th>
-        <th>date</th>
-        <th>Status</th>
-        <th>Total</th>
-        <th>Actions</th>
-      </tr>
-      <tr>
-        <td>
-          #0021
-        <td>
-          10/10/2020
-        </td>
-        <td>
-          Completed
-        </td>
-
-        <td>
-          Rs.1500.00
-        </td>
-        <td>
-          <button class="btn1" routerLink="/B_order_view">View <i class="material-icons"> pageview</i></button>
-        </td>
-      </tr>
-      <br>
-      <tr>
-        <td>
-          #0022
-        </td>
-        <td>
-          10/11/2020
-        </td>
-        <td>
-          Shipped
-        </td>
-        <td>
-          Rs.2300.00
-        </td>
-        <td>
-          <button class="btn1">View <i class="material-icons"> pageview</i></button>
-        </td>
-      </tr>
-
-    </table>
-  </div>
+        <tr>
+          <th>Order ID</th>
+          <th>date</th> 
+          <th>Status</th>
+          <th>Total</th>
+          <th>Actions</th>
+        </tr>
+        <tr>
+          <td >
+              #0021
+          <td>
+              10/10/2020
+            </td>
+          <td>
+              Completed
+            </td>
+            
+          <td>
+            Rs.1500.00
+          </td>
+          <td>
+            <button class="btn"routerLink = "/B_order_view" style="border-radius: 10px;">View  <i class="material-icons">  pageview</i></button>
+          </td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+                #0022
+            </td>
+            <td>
+                10/11/2020
+            </td>
+            <td>
+                Shipped
+            </td>
+            <td>
+                Rs.2300.00
+            </td>
+            <td>
+                <button class="btn" style="border-radius: 10px;">View  <i class="material-icons">  pageview</i></button>
+            </td>
+        </tr>
+   
+      </table>
+</div>
 
 </div>
 <br>
