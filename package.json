@@ -25,6 +25,8 @@
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
+    "ngx-progressbar": "^6.0.3",
+    "ngx-spinner": "^10.0.1",
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

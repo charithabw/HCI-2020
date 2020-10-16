@@ -1,0 +1,33 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image:src="assets\Buyer_images\bookbck.png";
+    background-size: cover;
+  }
+  .table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+  .th, td {
+    padding: 5px;
+    text-align: left;
+    }
+  .mat-grid-tile {
+      background: lightblue;
+    }
+    .path a, .arrow{
+      color: rosybrown;
+  }
+  .path a:hover{
+      color: royalblue;
+  }
+  .lastPath a{
+      color: black;
+  }
+  .lastPath{
+      background-color: #F3F5F5;
+      padding: 2vh;
+  }
+    

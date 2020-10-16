@@ -1,0 +1,19 @@
+h3 {
+  font-size: 25px;
+  color: #424344;
+}
+
+p {
+  font-family: 'Arial';
+  color: #80807F;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .home_desc {
+  order: 2;
+  }
+  .home_image{
+    order: 1;
+  }
+}
