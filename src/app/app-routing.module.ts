@@ -27,6 +27,8 @@ import { AllBooksComponent } from './all_book_component/all-books/all-books.comp
 import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
 import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component';
 import { FAQComponent } from './faq_components/f-aq/f-aq.component';
+import { TermsConditionComponent } from './TermsConditions_Components/terms-condition/terms-condition.component';
+import { TestimonialComponent } from './Testimonials/testimonial/testimonial.component';
 
 
 
@@ -62,6 +64,8 @@ const routes: Routes = [
   { path: 'feedback', component: FeedbackComponent },
   { path: 'contactus', component: ContactUsComponent },
   { path: 'faq', component: FAQComponent },
+  { path: 'term&condition', component: TermsConditionComponent },
+  { path: 'review', component: TestimonialComponent}
 
 ];
 

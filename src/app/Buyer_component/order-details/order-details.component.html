@@ -1,38 +1,39 @@
-<div style="margin-top: 10vh; ">
-  <br>
-  <span class = "path"><a routerLink = "">Home</a> >> <span class="arrow"> 
-     </span> <span><a routerLink = "/buyer">My account</a> >> </span> <span class="arrow"> 
-     </span> <span class="lastPath"><a  routerLink = "/b_order">Order details</a> </span></span>
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-   .btn1 {
-
-      background-color: DodgerBlue;
-      border: none;
-      color: white;
-      padding: 12px 16px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    /* Darker background on mouse-over */
-    .btn1:hover {
-      background-color: RoyalBlue;
-    }
-
-    </style>
-<div style = "width: 50%; float: left; padding: 5vh;">
-  <br>
-       <p style="margin-bottom: 2vh; font-family: 'Monaco'; font-size: 40px; color :darkgray">Order details</p>    
-   
+  .btn1 {
+    
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn1:hover {
+    background-color: RoyalBlue;
+  }
+  
+  </style>
+  <div style="margin-top: 10vh; ">
+    <br>
+    <span class = "path"><a routerLink = "">Home</a> >> <span class="arrow"> 
+       </span> <span><a routerLink = "/buyer">My account</a> >> </span> <span class="arrow"> 
+       </span> <span class="lastPath"><a  routerLink = "/b_order">Order details</a> </span></span>
+<div style="margin-top: 5vh;">
+  <p style=" text-align: center; margin-bottom: 2vh; font-family: 'Monaco'; font-size: 40px; color :darkgray">Order details</p>    
 </div>
- <div style="width : 50%; float: right; text-align: left; padding: 5vh;">
+   
+
+ <div style="width : 50%; float: right; text-align: center;">
     <a type="button" class="btn btn-light" routerLink="/track_my_order" style="color: blue;">Track My Order</a>
   </div>
-<div class ="container" style=" background-color: #e3eeee; border-radius: 30px;">
+<div class ="container" style="margin-top: 15vh; background-color: #e3eeee; border-radius: 30px;">
     <table style="width:100%">
         <tr>
           <th>Order ID</th>
@@ -55,7 +56,7 @@
             Rs.1500.00
           </td>
           <td>
-            <button class="btn"routerLink = "/B_order_view" style="border-radius: 10px;">View  <i class="material-icons">  pageview</i></button>
+            <button class="btn1"routerLink = "/B_order_view" style="border-radius: 10px;">View  <i class="material-icons">  pageview</i></button>
           </td>
         </tr>
         <br>
@@ -73,7 +74,7 @@
                 Rs.2300.00
             </td>
             <td>
-                <button class="btn" style="border-radius: 10px;">View  <i class="material-icons">  pageview</i></button>
+                <button class="btn1" style="border-radius: 10px;">View  <i class="material-icons">  pageview</i></button>
             </td>
         </tr>
    
