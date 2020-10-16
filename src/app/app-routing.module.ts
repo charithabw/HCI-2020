@@ -23,6 +23,10 @@ import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sella
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
 import { AboutusComponentComponent } from './aboutus_components/aboutus-component/aboutus-component.component';
 import { PolicyComponentComponent } from './privacy_policy_Component/policy-component/policy-component.component';
+import { AllBooksComponent } from './all_book_component/all-books/all-books.component';
+import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
+import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component';
+import { FAQComponent } from './faq_components/f-aq/f-aq.component';
 
 
 
@@ -52,8 +56,12 @@ const routes: Routes = [
   { path: 'login', component: LoginUserComponent },
   { path: 'singup', component: SignupComponent },
   { path: 'sellar_stepper', component: SellarStteperComponent },
-  { path: 'single_book', component: SingleBookComponent},
-  { path: 'aboutus', component: AboutusComponentComponent }
+  { path: 'single_book', component: SingleBookComponent },
+  { path: 'aboutus', component: AboutusComponentComponent },
+  { path: 'book_list', component: AllBooksComponent },
+  { path: 'feedback', component: FeedbackComponent },
+  { path: 'contactus', component: ContactUsComponent },
+  { path: 'faq', component: FAQComponent },
 
 ];
 

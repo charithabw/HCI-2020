@@ -49,10 +49,12 @@ export class AddBookComponent implements OnInit {
     this.isShow = !this.isShow;
   }
   AddForm = new FormGroup({
+    isbm:  new FormControl('', Validators.required),
     bname: new FormControl('', Validators.required),
     aname: new FormControl('', Validators.required),
     year: new FormControl('', Validators.required)
   })
+  get isbm(){return this.AddForm.get('isbm')}
   get bname(){return this.AddForm.get('bname')}
   get aname(){return this.AddForm.get('aname')}
   get year(){return this.AddForm.get('year')}

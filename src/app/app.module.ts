@@ -27,6 +27,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 import {MatGridListModule} from '@angular/material/grid-list';
 
@@ -68,9 +69,20 @@ import { MatIconModule } from '@angular/material/icon';
 
 import { MatTabsModule } from '@angular/material/tabs';
 
+
+
+//import { SigninComponentComponent } from './signin-component/signin-component.component';
+
+import { FeedbackComponent } from './Feedback_component/feedback/feedback.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component';
+
+
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
 import { PolicyComponentComponent } from './privacy_policy_Component/policy-component/policy-component.component';
+import { AllBooksComponent } from './all_book_component/all-books/all-books.component';
+
 
 
 
@@ -90,6 +102,8 @@ import { PolicyComponentComponent } from './privacy_policy_Component/policy-comp
     SellarUpdateComponent,
     AddBookComponent,
     LoginUserComponent,
+    FeedbackComponent,
+    ContactUsComponent,
     CartComponent,
     PaymentComponent,
     TrackMyOrderComponent,
@@ -103,20 +117,22 @@ import { PolicyComponentComponent } from './privacy_policy_Component/policy-comp
     SignupDetailsComponent,
 
     AboutusComponentComponent,
+
+    FAQComponent,
+
 FAQComponent,
-    
-    
-    
-    
+
+
 
     SellarPaymentsComponent,
     SellarMyBooksComponent,
     SellarSoldBooksComponent,
     SellarStteperComponent,
     SingleBookComponent,
+
     PolicyComponentComponent,
 
-
+    AllBooksComponent,
 
 
 
@@ -136,6 +152,7 @@ FAQComponent,
     MatPaginatorModule,
     MatCardModule,
     MatButtonModule,
+    MatExpansionModule,
 
     MatGridListModule,
 
@@ -156,6 +173,8 @@ FAQComponent,
     MatIconModule,
     MatCardModule,
     MatTabsModule,
+
+    NgbModule,
 
 
   ],
