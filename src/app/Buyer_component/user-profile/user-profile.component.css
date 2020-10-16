@@ -34,3 +34,29 @@ a {
    transition: 1s;
    
 }
+.path a, .arrow{
+    color: rosybrown;
+}
+.path a:hover{
+    color: royalblue;
+}
+.lastPath a{
+    color: black;
+}
+.lastPath{
+    background-color: #F3F5F5;
+    padding: 2vh;
+}
+.path a, .arrow{
+    color: rosybrown;
+}
+.path a:hover{
+    color: royalblue;
+}
+.lastPath a{
+    color: black;
+}
+.lastPath{
+    background-color: #F3F5F5;
+    padding: 2vh;
+}

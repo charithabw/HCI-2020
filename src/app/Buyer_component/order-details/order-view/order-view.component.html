@@ -1,68 +1,50 @@
-
 <div style="margin-top: 10vh;">
-
-<div style=" width: 40%; margin-left: 35%;" >
-
-<mat-card class="example-card">
-    <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
-      <mat-card-title>Percy Jackson</mat-card-title>
-      <mat-card-subtitle>Book title</mat-card-subtitle>
-    </mat-card-header>
-    <img mat-card-image src="assets\Buyer_images\PercyB1.jpg" alt="Photo of a Shiba Inu">
-    <mat-card-content>
-      <p>
-        The Lightning Thief is a 2005 American fantasy-adventure novel based on Greek mythology, 
-        the first young adult novel written by Rick Riordan in the Percy Jackson & the Olympians series.
-      </p>
-    </mat-card-content>
   
-  </mat-card>
+  <span class="path"><a routerLink="">Home</a> >> <span class="arrow">
+    </span> <span><a routerLink="/buyer">My account</a> >> </span> <span class="arrow">
+    </span> <span><a routerLink="/b_order">Order details</a> >> </span> <span class="arrow">
+    </span> <span class="lastPath"><a routerLink="/B_order_view">Order View</a> </span></span>
 
-</div>
-<br>
-<br>
- <!-- <table style="width:50%">
-    <tr>
-      <th>Order ID:</th>
-      <td>#0021</td>
-  </tr>
-    <tr>
-        <th>Product:</th>
-        <td>Percy Jackson & the Olympians: The Lightning Thief</td>
-    </tr>
-    <tr>
-        <th>Shipping:</th>
-        <td>Free</td>
-    </tr>
-    <tr>
-        <th>Payment Method:</th>
-        <td>Cash on delivery</td>
-        </tr>
-    <tr>
-        <th>Total:</th>
-        <td>Rs.1500.00</td>
-    </tr>   
-    </table>
+
+  <div style=" width: 40%; margin-left: 35%;">
+
+    <mat-card class="example-card">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Percy Jackson</mat-card-title>
+        <mat-card-subtitle>Book title</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="assets\Buyer_images\PercyB1.jpg" alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        <p>
+          The Lightning Thief is a 2005 American fantasy-adventure novel based on Greek mythology,
+          the first young adult novel written by Rick Riordan in the Percy Jackson & the Olympians series.
+        </p>
+      </mat-card-content>
+
+    </mat-card>
+
+  </div>
   <br>
-  <br>-->
-  <div style="width: 80%;">
-  <mat-grid-list cols="2" rowHeight="40:3"  style = "font-family:courier,arial,helvetica;">
-    <mat-grid-tile><b>Order ID:</b></mat-grid-tile>
-    <mat-grid-tile>#0021</mat-grid-tile>
-    <br>
-    <mat-grid-tile><b>Product:</b></mat-grid-tile>
-    <mat-grid-tile>Percy Jackson & the Olympians: The Lightning Thief</mat-grid-tile>
-    <br>
-    <mat-grid-tile><b>Shipping:</b></mat-grid-tile>
-    <mat-grid-tile>Free Shipping</mat-grid-tile>
-    <br>
-    <mat-grid-tile><b>Payment Method:</b></mat-grid-tile>
-    <mat-grid-tile>Cash on delivery</mat-grid-tile>
-    <br>
-    <mat-grid-tile><b>Total:</b></mat-grid-tile>
-    <mat-grid-tile>Rs.1500.00</mat-grid-tile>
-    <br>
-  </mat-grid-list>
+  <br>
+
+  <div style="width: 80%; margin-left: 20vh;">
+    <mat-grid-list cols="2" rowHeight="40:3" style="font-family:courier,arial,helvetica;">
+      <mat-grid-tile><b>Order ID:</b></mat-grid-tile>
+      <mat-grid-tile>#0021</mat-grid-tile>
+      <br>
+      <mat-grid-tile><b>Product:</b></mat-grid-tile>
+      <mat-grid-tile>Percy Jackson & the Olympians: The Lightning Thief</mat-grid-tile>
+      <br>
+      <mat-grid-tile><b>Shipping:</b></mat-grid-tile>
+      <mat-grid-tile>Free Shipping</mat-grid-tile>
+      <br>
+      <mat-grid-tile><b>Payment Method:</b></mat-grid-tile>
+      <mat-grid-tile>Cash on delivery</mat-grid-tile>
+      <br>
+      <mat-grid-tile><b>Total:</b></mat-grid-tile>
+      <mat-grid-tile>Rs.1500.00</mat-grid-tile>
+      <br>
+    </mat-grid-list>
   </div>
 </div>

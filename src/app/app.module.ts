@@ -80,7 +80,9 @@ import { ContactUsComponent } from './Contact_us/contact-us/contact-us.component
 
 import { SellarStteperComponent } from './Sellar_components/sellar-stteper/sellar-stteper.component';
 import { SingleBookComponent } from './single_book_components/single-book/single-book.component';
+import { PolicyComponentComponent } from './privacy_policy_Component/policy-component/policy-component.component';
 import { AllBooksComponent } from './all_book_component/all-books/all-books.component';
+
 
 
 
@@ -127,7 +129,11 @@ FAQComponent,
     SellarSoldBooksComponent,
     SellarStteperComponent,
     SingleBookComponent,
+
+    PolicyComponentComponent,
+
     AllBooksComponent,
+
 
 
   ],
