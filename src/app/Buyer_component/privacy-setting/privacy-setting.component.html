@@ -1,75 +1,84 @@
-<style>
+<div style="margin-top: 10vh;">
+
+  <span class="path"><a routerLink="">Home</a> >> <span class="arrow">
+    </span> <span><a routerLink="/buyer">My account</a> >> </span> <span class="arrow">
+    </span> <span class="lastPath"><a routerLink="/privacy">Privacy Settings</a></span></span>
+
+  <style>
     table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
       width: 100%;
     }
-    
-    td, th {
+
+    td,
+    th {
       border: 1px solid #dddddd;
       text-align: left;
       padding: 8px;
     }
-    
+
     tr:nth-child(even) {
       background-color: #dddddd;
     }
-    </style>
-<br>
-<br>
-<br>
-<br>
-<div>
-    <form >
-     
-        <div class="form-group" style=" margin-left: 50vh;">
-            <div class="form-group col-md-6" >
-                <label for="Password1"><strong>Current Password</strong></label>
-                <input type="password" class="form-control" id="Password1" placeholder="Current Password">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="Password2"><strong>New Password</strong></label>
-                <input type="password" class="form-control" id="Password2" placeholder=" New Password">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="Password3"><strong>Confirm Password</strong></label>
-                <input type="password" class="form-control" id="Password3" placeholder="Confirm Password">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="email"><strong>Email</strong></label>
-                <input type="email" class="form-control" id="email" placeholder="@gmail.com">
-              </div>
-            </div>
-    
-      </form>
-        <div>
-            <table style="width:100%">
-                <tr>
-                  <th>Provider</th>
-                  <th>Account</th> 
-                  <th>Last Login</th>
-                  <th>Unlink</th>
-                </tr>
-                <tr>
-                  <td >
-                      <img src="assets\Buyer_images\facebook.png" width="10%"> </td>
-                  <td>
-                      example@gmail.com
-                    </td>
-                  <td>
-                      sepetember,12,2020
-                    </td>
-                  <td>
-                      <button class="btn btn-primary"style=" border-radius: 60px;">Unlink</button>
-                  </td>
-                </tr>
-           
-              </table>
+  </style>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div>
+    <form>
+
+      <div class="form-group" style=" margin-left: 50vh;">
+        <div class="form-group col-md-6">
+          <label for="Password1"><strong>Current Password</strong></label>
+          <input type="password" class="form-control" id="Password1" placeholder="Current Password">
         </div>
-        <div style="text-align: center;">
-            <button type="submit" class="btn btn-primary" style="width: 50vh; margin-top: 15vh; border-radius: 60px;">Save Changes</button>
-            </div>
-            <br>
-            <br>
-    
+        <div class="form-group col-md-6">
+          <label for="Password2"><strong>New Password</strong></label>
+          <input type="password" class="form-control" id="Password2" placeholder=" New Password">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="Password3"><strong>Confirm Password</strong></label>
+          <input type="password" class="form-control" id="Password3" placeholder="Confirm Password">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="email"><strong>Email</strong></label>
+          <input type="email" class="form-control" id="email" placeholder="@gmail.com">
+        </div>
+      </div>
+
+    </form>
+    <div>
+      <table style="width:100%">
+        <tr>
+          <th>Provider</th>
+          <th>Account</th>
+          <th>Last Login</th>
+          <th>Unlink</th>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets\Buyer_images\facebook.png" width="10%"> </td>
+          <td>
+            example@gmail.com
+          </td>
+          <td>
+            sepetember,12,2020
+          </td>
+          <td>
+            <button class="btn btn-primary" style=" border-radius: 60px;">Unlink</button>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+    <div style="text-align: center;">
+      <button type="submit" class="btn btn-primary" style="width: 50vh; margin-top: 15vh; border-radius: 60px;">Save
+        Changes</button>
+    </div>
+    <br>
+    <br>
+
+  </div>
 </div>
