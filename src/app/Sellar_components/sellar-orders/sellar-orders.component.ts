@@ -15,6 +15,7 @@ export class SellarOrdersComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.getElementById("myForm").style.display = "none";
   }
 
   delete1(){
@@ -34,5 +35,11 @@ export class SellarOrdersComponent implements OnInit {
   }
   accept(){
 
+  }
+  openForm(){
+    document.getElementById("myForm").style.display = "block";
+  }
+  closeForm() {
+    document.getElementById("myForm").style.display = "none";
   }
 }

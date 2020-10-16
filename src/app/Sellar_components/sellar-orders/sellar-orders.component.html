@@ -69,4 +69,18 @@
     </tbody>
   </table>
 </div>
+<div style="margin-bottom: 25vh;">
+  <button class="open-button btn1" (click)="openForm()"><span><i class="fa fa-commenting-o" aria-hidden="true"></i> </span> </button>
+  <div class="chat-popup" id="myForm">
+    <form action="" class="form-container">
+      <h1>Chat</h1>
+  
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." name="msg" required></textarea>
+  
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" (click)="closeForm()">Close</button>
+    </form>
+  </div>
+</div>
 </div>
